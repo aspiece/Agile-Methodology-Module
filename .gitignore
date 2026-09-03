@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+tools/node_modules/
+outputs/*
+!outputs/.gitkeep
