@@ -8,8 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content" / "course.json"
-REQUIRED_STEPS = {"2", "5", "6"}
-ALLOWED_STEPS = {"2", "3", "4", "5", "6"}
+ALLOWED_STEPS = {"2", "3", "4", "5", "6", "application", "assessment"}
 PROHIBITED_TERMS = ("GCI", "Genesee Career Institute")
 
 
@@ -39,7 +38,13 @@ def main() -> int:
         number = lesson.get("number")
         location = f"lesson-{number}"
         steps = lesson.get("steps", {})
-        missing = REQUIRED_STEPS - set(steps)
+        missing = []
+        if "2" not in steps:
+            missing.append("2")
+        if "application" not in steps and "5" not in steps:
+            missing.append("application")
+        if "assessment" not in steps and "6" not in steps:
+            missing.append("assessment")
         if missing:
             findings.append(finding("error", location, f"Missing required step definitions: {sorted(missing)}."))
         unknown = set(steps) - ALLOWED_STEPS
@@ -58,9 +63,11 @@ def main() -> int:
                 findings.append(finding("error", f"{number}.{suffix}", "Instructional steps require a check or an approved override reason."))
             if len(step.get("resource_ids", [])) > 1:
                 findings.append(finding("warning", f"{number}.{suffix}", "Review chunking: an instructional step should have one primary resource."))
-        application = steps.get("5", {})
+        instructional_suffixes = [int(suffix) for suffix in ("2", "3", "4") if steps.get(suffix)]
+        application_suffix = max(instructional_suffixes) + 1 if instructional_suffixes else 3
+        application = steps.get("application") or steps.get("5", {})
         if course.get("module_type") == "cte" and not application.get("program_scenarios"):
-            findings.append(finding("warning", f"{number}.5", "CTE application requires approved program-specific scenarios before release."))
+            findings.append(finding("warning", f"{number}.{application_suffix}", "CTE application requires approved program-specific scenarios before release."))
 
     generated_text = "\n".join(
         path.read_text(encoding="utf-8", errors="ignore")

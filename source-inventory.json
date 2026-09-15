@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "source_root": "C:\\github\\Agile-Methodology-Module\\resources",
+  "created_at": "2026-09-03T15:46:18.721660+00:00",
+  "files": [
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-blueprint\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-blueprint\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 31326,
+      "sha256": "0efb962d3a4f8343b80ade3b918a1f629ce29d5d462c5060783790759fd55b25"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-connect-learn-revision\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-connect-learn-revision\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 38711,
+      "sha256": "dbf88dd84dc18eb36903775f34447a6cf96e5639180741c9e705d9fe3db6bcdc"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-intake\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-intake\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 29585,
+      "sha256": "c37eb3827c5b69b06231fb79dbf29f0761ccce94d6d533c9fec9236e6cc016c6"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-lesson-1-draft\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-lesson-1-draft\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 34830,
+      "sha256": "2677a6d693698325c62984ffb880dd768516418379739fde2ff6f68615557d43"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-lesson-overviews\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-lesson-overviews\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 38891,
+      "sha256": "d3887a21f8ae4ef90d2da7fe31641c63ab02e8e7862fc9cc0134fc8d663052a1"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-overview-sheet\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-overview-sheet\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 40175,
+      "sha256": "d52e2408dd9a351f32a5efc1e06df7e8d2b3d271d245b4b20d248738a0f8943a"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\backups\\2026-09-03-standards-revision\\Module_Resource_Collection.xlsx",
+      "relative_path": "backups\\2026-09-03-standards-revision\\Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 31326,
+      "sha256": "0efb962d3a4f8343b80ade3b918a1f629ce29d5d462c5060783790759fd55b25"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\Module_Resource_Collection.xlsx",
+      "relative_path": "Module_Resource_Collection.xlsx",
+      "extension": ".xlsx",
+      "bytes": 43674,
+      "sha256": "41f367fe07bc510da715a25562efd6b903b558e356100e684186a109289e59f0"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\source-materials\\AGENTS.md",
+      "relative_path": "source-materials\\AGENTS.md",
+      "extension": ".md",
+      "bytes": 11594,
+      "sha256": "f0eed396a7dc213210a53c4eafeed7b9161158798e7aaeb3fdcbdce271312d66"
+    },
+    {
+      "path": "C:\\github\\Agile-Methodology-Module\\resources\\source-materials\\Agile Module Project Context.md",
+      "relative_path": "source-materials\\Agile Module Project Context.md",
+      "extension": ".md",
+      "bytes": 6138,
+      "sha256": "62383e9417e23a3f9e968b34171801e3fb9c67cc185e21c57b391e368e9340c7"
+    }
+  ]
+}

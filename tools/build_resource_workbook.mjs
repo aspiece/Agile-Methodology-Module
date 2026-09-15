@@ -141,10 +141,10 @@ function writeTable(sheet, startRow, headers, rows, tableName, widths = {}) {
     ["Course title", "", "Designer", "Required"],
     ["Short title", "", "Designer", "Required"],
     ["Module purpose", "", "Designer", "Required"],
-    ["Module type", "CTE", "Template default", "CTE requires program-specific .5 applications"],
+    ["Module type", "CTE", "Template default", "CTE requires a meaningful program-specific application; its step number follows the instructional sequence."],
     ["Audience", "Grades 11–12 CTE students", "Template default", "Fixed"],
     ["Number of lessons", 8, "Template default", "Fixed"],
-    ["Minutes per lesson", 50, "Template default", "Includes .6 assessment"],
+    ["Minutes per lesson", 50, "Template default", "Includes the final lesson assessment; steps are numbered without gaps."],
     ["Reading level", "Grades 7–8", "Template default", "Student-facing text"],
     ["Accessibility target", "WCAG 2.2 AA and UDL", "Template default", "Fixed"],
     ["Mastery threshold", 0.8, "Template default", "Fixed"],
@@ -185,7 +185,7 @@ function writeTable(sheet, startRow, headers, rows, tableName, widths = {}) {
 {
   const s = sheets["Lesson Blueprint"];
   title(s, "Eight-Lesson Blueprint", "Codex proposes the topics, objectives, optional steps, applications, and pacing from approved standards and resources. The designer approves each lesson before drafting.", "R");
-  const headers = ["Lesson", "Proposed Title", "Topic and Purpose", "Standard IDs", "Draft Learning Objectives", "Vocabulary", ".2 Focus", ".2 Resource ID", "Use .3?", ".3 Focus and Resource", "Use .4?", ".4 Focus and Resource", ".5 Application Focus", "Activity Completion Mode", ".6 Evidence of Learning", "Estimated Minutes", "Designer Status", "Designer Notes"];
+  const headers = ["Lesson", "Proposed Title", "Topic and Purpose", "Standard IDs", "Draft Learning Objectives", "Vocabulary", ".2 Focus", ".2 Resource ID", "Use .3?", ".3 Focus and Resource", "Use .4?", ".4 Focus and Resource", "Application Focus (next step)", "Activity Completion Mode", "Evidence of Learning (final step)", "Estimated Minutes", "Designer Status", "Designer Notes"];
   const rows = Array.from({length: 8}, (_, index) => [index + 1, `Lesson ${index + 1} Topic`, "", "", "", "", "", "", "No", "", "No", "", "", "Designer Decision", "", 50, "Not Reviewed", ""]);
   writeTable(s, 4, headers, rows, "LessonBlueprintTable", {1: 10, 2: 30, 3: 42, 4: 18, 5: 50, 6: 28, 7: 36, 8: 18, 9: 12, 10: 40, 11: 12, 12: 40, 13: 42, 14: 25, 15: 40, 16: 15, 17: 18, 18: 34});
   s.getRange("I5:I12").dataValidation = { rule: { type: "list", values: ["Yes", "No"] } };
@@ -197,10 +197,10 @@ function writeTable(sheet, startRow, headers, rows, tableName, widths = {}) {
 // Lesson Content
 {
   const s = sheets["Lesson Content"];
-  title(s, "Draft Student-Facing Lesson Content", "Codex drafts concise, source-supported instruction here after the blueprint is approved. Each row represents one instructional step; .3 and .4 are added only when needed.", "P");
-  const headers = ["Lesson", "Step", "Step Title", "Instructional Purpose", "Your Next Move", "Student-Facing Instruction", "Primary Resource ID", "Additional Source IDs", "Graphic Path", "Graphic Alt Text", "Graphic Caption", "Check Override Reason", "Estimated Minutes", "Reading-Level Check", "Approval Status", "Designer Notes"];
-  const rows = Array.from({length: 8}, (_, index) => [index + 1, "Step .2", "Connect and Learn", "", "", "", "", "", "", "", "", "", 12, "Not Checked", "Not Reviewed", ""]);
-  writeTable(s, 4, headers, rows, "LessonContentTable", {1: 10, 2: 10, 3: 30, 4: 38, 5: 48, 6: 68, 7: 20, 8: 22, 9: 34, 10: 48, 11: 38, 12: 40, 13: 16, 14: 20, 15: 18, 16: 34});
+  title(s, "Draft Student-Facing Lesson Content", "Codex drafts concise, source-supported instruction here after the blueprint is approved. Each row represents one instructional step; .3 and .4 are added only when needed.", "Q");
+  const headers = ["Lesson", "Step", "Step Title", "Instructional Purpose", "Your Next Move", "Student-Facing Instruction", "Primary Resource ID", "Additional Source IDs", "Graphic Path", "Graphic Alt Text", "Graphic Caption", "Check Override Reason", "Estimated Minutes", "Reading-Level Check", "Approval Status", "Designer Notes", "Graphic Prompt"];
+  const rows = Array.from({length: 8}, (_, index) => [index + 1, "Step .2", "Connect and Learn", "", "", "", "", "", "", "", "", "", 12, "Not Checked", "Not Reviewed", "", ""]);
+  writeTable(s, 4, headers, rows, "LessonContentTable", {1: 10, 2: 10, 3: 30, 4: 38, 5: 48, 6: 68, 7: 20, 8: 22, 9: 34, 10: 48, 11: 38, 12: 40, 13: 16, 14: 20, 15: 18, 16: 34, 17: 80});
   s.getRange("B5:B204").dataValidation = { rule: { type: "list", values: ["Step .2", "Step .3", "Step .4"] } };
   s.getRange("N5:N204").dataValidation = { rule: { type: "list", values: ["Not Checked", "Pass", "Revise"] } };
   s.getRange("O5:O204").dataValidation = { rule: { type: "list", values: ["Not Reviewed", "Approved", "Revise", "Rejected"] } };
@@ -222,7 +222,7 @@ function writeTable(sheet, startRow, headers, rows, tableName, widths = {}) {
 // Application Activities
 {
   const s = sheets["Application Activities"];
-  title(s, "Required .5 Application Activities", "Every lesson includes an authentic application. CTE modules require meaningful program-specific pathways.", "M");
+  title(s, "Required Application Activities", "Every lesson includes an authentic application. Its step number is the next number after the final instructional step.", "M");
   const headers = ["Lesson", "Activity ID", "Activity Title", "Purpose", "Standard IDs", "Objective IDs", "Directions", "Completion Mode", "Student Product or Evidence", "Estimated Minutes", "Feedback or Exemplar Plan", "Approval Status", "Designer Notes"];
   const rows = Array.from({length: 8}, (_, index) => [index + 1, `APP-${index + 1}-01`, "", "", "", "", "", "Designer Decision", "", 15, "", "Not Reviewed", ""]);
   writeTable(s, 4, headers, rows, "ApplicationsTable", {1: 10, 2: 18, 3: 30, 4: 42, 5: 18, 6: 18, 7: 55, 8: 28, 9: 36, 10: 15, 11: 42, 12: 18, 13: 34});

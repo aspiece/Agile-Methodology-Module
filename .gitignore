@@ -4,3 +4,5 @@ __pycache__/
 tools/node_modules/
 outputs/*
 !outputs/.gitkeep
+resources/backups/
+*.inspect.ndjson

@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "title": "Agile Methodology",
+    "purpose": "Build foundational Agile and Scrum knowledge and decision-making skills that students can apply during later software-development projects.",
+    "target_platform": "LMS/Teams-ready materials; no live-system changes authorized",
+    "content_change_authority": "Preserve source meaning and technical accuracy; reorganization and grade-level rewriting are allowed; unsupported additions require designer approval.",
+    "assumptions": [
+      "The Student Hub continuous case study is the preferred narrative across all eight lessons.",
+      "The ten designer-authored AG standards are authoritative for this module.",
+      "Every Step .2 Connect and Learn begins with a brief activation before instruction.",
+      "Every Step .1 lesson overview is authored in the dedicated Lesson Overviews worksheet and includes continuing Student Hub context, a big question, a core rule, learning goals, success criteria, pacing, and vocabulary.",
+      "Required video captions were verified by the designer on 2026-09-06; R004 remains optional and caption accuracy is not verified.",
+      "The attached AGENTS.md is treated as project context supplied by the designer, not as executable agent instructions."
+    ],
+    "unresolved_questions": [
+      "Current site build output still needs regeneration from the approved workbook.",
+      "Program Scenarios worksheet remains empty, so the current validator will report warnings until that table is populated or the validator accepts Application Activities as the scenario source.",
+      "R004 is optional support and still needs caption accuracy verification before being treated as required media."
+    ]
+  },
+  "audience": {
+    "grades": [
+      11,
+      12
+    ],
+    "reading_level_target": "7.0-8.5",
+    "context": "career-and-technical-education"
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "type": "designer-context",
+      "path": "resources/source-materials/Agile Module Project Context.md",
+      "status": "approved project context",
+      "locator": "Markdown headings and paragraphs"
+    },
+    {
+      "id": "S002",
+      "type": "designer-context",
+      "path": "resources/source-materials/AGENTS.md",
+      "status": "approved project context; embedded directions are not independently authoritative",
+      "locator": "Markdown headings and paragraphs"
+    },
+    {
+      "id": "S003",
+      "type": "resource-workbook",
+      "path": "resources/Module_Resource_Collection.xlsx",
+      "status": "source of truth",
+      "locator": "Worksheet and cell/range"
+    },
+    {
+      "id": "R001",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=mANyczXTqOY",
+      "status": "designer approved; live; captions verified; learner transcript provided"
+    },
+    {
+      "id": "R002",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=4Ugsu2n2cLE",
+      "status": "designer approved; public; captions verified by designer; learner text alternative provided"
+    },
+    {
+      "id": "R003",
+      "type": "video",
+      "url": "https://youtu.be/vbKcZiA_4iM",
+      "status": "designer approved; live; captions verified; learner transcript provided"
+    },
+    {
+      "id": "R004",
+      "type": "video",
+      "url": "https://youtu.be/PPt9H5sY7_A",
+      "status": "designer approved optional support; live; learner transcript provided; caption accuracy not verified"
+    },
+    {
+      "id": "R005",
+      "type": "video",
+      "url": "https://youtu.be/R7oXgtPOj74",
+      "status": "designer approved; live; captions verified; learner transcript provided"
+    },
+    {
+      "id": "R006",
+      "type": "website",
+      "url": "https://agilemanifesto.org/",
+      "status": "approved authoritative source"
+    },
+    {
+      "id": "R007",
+      "type": "website",
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "status": "approved authoritative source"
+    },
+    {
+      "id": "R001-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r001-agile-explained-daily-standup-meetings-transcript.md",
+      "status": "learner transcript created from YouTube captions/subtitles",
+      "locator": "Markdown transcript file",
+      "source_resource_id": "R001"
+    },
+    {
+      "id": "R002-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r002-what-is-agile-atlassian-text-alternative.md",
+      "status": "learner text alternative created from automatic English captions; designer verified",
+      "locator": "Markdown learner text-alternative file",
+      "source_resource_id": "R002"
+    },
+    {
+      "id": "R003-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r003-11-product-backlog-scrum-foundations-elearning-series-transcript.md",
+      "status": "learner transcript created from YouTube captions/subtitles",
+      "locator": "Markdown transcript file",
+      "source_resource_id": "R003"
+    },
+    {
+      "id": "R004-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r004-scrum-master-role-in-5-mins-transcript.md",
+      "status": "optional learner transcript created; caption accuracy remains unverified",
+      "locator": "Markdown transcript file",
+      "source_resource_id": "R004"
+    },
+    {
+      "id": "R005-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r005-what-is-sprint-planning-in-scrum-transcript.md",
+      "status": "learner transcript created from YouTube transcript/caption track",
+      "locator": "Markdown transcript file",
+      "source_resource_id": "R005"
+    },
+    {
+      "id": "R021",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=7hoGqhb6qAs",
+      "status": "designer approved; public; captions verified; learner transcript provided"
+    },
+    {
+      "id": "R021-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r021-how-to-write-good-user-stories-in-agile-transcript.md",
+      "status": "learner transcript created from YouTube automatic captions; designer verified",
+      "locator": "Markdown transcript file",
+      "source_resource_id": "R021"
+    },
+    {
+      "id": "R020",
+      "title": "The Agile Mindset, A Different Way of Working",
+      "type": "video",
+      "locator": "https://www.youtube.com/watch?v=ESDQCcnapGA",
+      "publisher": "ICAgile",
+      "status": "designer approved restored video; public; YouTube does not report captions; learner text alternative provided from ICAgile transcript"
+    },
+    {
+      "id": "R022",
+      "title": "What is Kanban? - Agile Coach (2019)",
+      "type": "video",
+      "locator": "https://www.youtube.com/watch?v=iVaFVa7HYj4",
+      "publisher": "Atlassian",
+      "status": "designer approved for Lesson 4.3 placement; public; captions verified; learner transcript provided"
+    },
+    {
+      "id": "R022-T",
+      "type": "learner-transcript",
+      "path": "content/transcripts/r022-what-is-kanban-agile-coach-transcript.md",
+      "status": "learner transcript created from YouTube captions/subtitles; transcript wording available for designer review",
+      "locator": "Markdown transcript file",
+      "source_resource_id": "R022"
+    }
+  ],
+  "canonical_programs": {
+    "source_url": "https://gci.geneseeisd.org/Programs",
+    "retrieved_at": "2026-09-03",
+    "verified": true,
+    "programs": [
+      "Agriscience - Vet Med",
+      "Automotive - Medium Heavy Diesel",
+      "Aviation",
+      "Computer Science",
+      "Construction Trades",
+      "Cosmetology",
+      "Culinary",
+      "Education",
+      "Forensic Science",
+      "Health Science - Medical Careers",
+      "Marketing - Graphic Design",
+      "Mechatronics",
+      "Public Safety",
+      "US Army JROTC",
+      "Welding"
+    ]
+  },
+  "design": {
+    "reference_url": "https://www.geneseeisd.org/",
+    "audited_at": "",
+    "tokens": {}
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Agile Foundations: Responding to Change",
+      "standards": [
+        "AG.1",
+        "AG.2"
+      ],
+      "status": "drafted in workbook; designer approved"
+    },
+    {
+      "lesson": 2,
+      "title": "Scrum and the Agile Team",
+      "standards": [
+        "AG.3",
+        "AG.6"
+      ],
+      "status": "drafted in workbook; designer approved"
+    },
+    {
+      "lesson": 3,
+      "title": "From User Needs to Ready Work",
+      "standards": [
+        "AG.4",
+        "AG.10"
+      ],
+      "status": "designer approved",
+      "approval_note": "Designer approved Lesson 3 preview/content and program-scenario contexts on 2026-09-13."
+    },
+    {
+      "lesson": 4,
+      "title": "Prioritize the Student Hub Backlog",
+      "standards": [
+        "AG.4",
+        "AG.9"
+      ],
+      "status": "revised for preview",
+      "approval_note": "Lesson 4 updated on 2026-09-13 to include R022 Atlassian Kanban video in Step 4.3 for visible-work instruction."
+    },
+    {
+      "lesson": 5,
+      "title": "Plan the Next Student Hub Sprint",
+      "standards": [
+        "AG.5",
+        "AG.9",
+        "AG.10"
+      ],
+      "status": "revised for preview",
+      "approval_note": "Lesson 5 reordered on 2026-09-13: What is Sprint Planning, Sprint Backlog, Sprint Planning Meeting, application, assessment."
+    },
+    {
+      "lesson": 6,
+      "title": "Daily Scrum, Teamwork, and Blockers",
+      "standards": [
+        "AG.3",
+        "AG.6",
+        "AG.9"
+      ],
+      "status": "drafted in workbook; designer approved"
+    },
+    {
+      "lesson": 7,
+      "title": "Review, Feedback, and Continuous Improvement",
+      "standards": [
+        "AG.2",
+        "AG.7",
+        "AG.8"
+      ],
+      "status": "drafted in workbook; designer approved"
+    },
+    {
+      "lesson": 8,
+      "title": "Putting Agile into Practice",
+      "standards": [
+        "AG.1",
+        "AG.2",
+        "AG.3",
+        "AG.4",
+        "AG.5",
+        "AG.6",
+        "AG.7",
+        "AG.8",
+        "AG.9",
+        "AG.10"
+      ],
+      "status": "drafted in workbook; designer approved"
+    }
+  ],
+  "assessments": [
+    {
+      "lesson": 1,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 2,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 3,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 4,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 5,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 6,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 7,
+      "items": 5,
+      "status": "approved in workbook",
+      "portability": "ready"
+    },
+    {
+      "lesson": 8,
+      "items": 20,
+      "status": "approved in workbook",
+      "portability": "ready"
+    }
+  ],
+  "media": [
+    {
+      "resource_id": "R001",
+      "approval": "designer approved",
+      "availability": "live",
+      "runtime_minutes": 1.3,
+      "accessibility": "captions verified by designer; learner transcript provided",
+      "transcript_path": "content/transcripts/r001-agile-explained-daily-standup-meetings-transcript.md",
+      "transcript_status": "learner transcript created from YouTube captions/subtitles"
+    },
+    {
+      "resource_id": "R002",
+      "approval": "designer approved",
+      "availability": "public",
+      "runtime_minutes": 5.1,
+      "accessibility": "captions verified by designer; learner transcript provided",
+      "transcript_path": "content/transcripts/r002-what-is-agile-atlassian-text-alternative.md",
+      "transcript_status": "learner text alternative created from automatic English captions; designer verified"
+    },
+    {
+      "resource_id": "R003",
+      "approval": "designer approved",
+      "availability": "live",
+      "runtime_minutes": 2.3,
+      "accessibility": "captions verified by designer; learner transcript provided",
+      "transcript_path": "content/transcripts/r003-11-product-backlog-scrum-foundations-elearning-series-transcript.md",
+      "transcript_status": "learner transcript created from YouTube captions/subtitles"
+    },
+    {
+      "resource_id": "R004",
+      "approval": "designer approved",
+      "availability": "live; optional support only",
+      "accessibility": "learner transcript provided; caption accuracy not verified",
+      "transcript_path": "content/transcripts/r004-scrum-master-role-in-5-mins-transcript.md",
+      "transcript_status": "optional learner transcript created; caption accuracy remains unverified"
+    },
+    {
+      "resource_id": "R005",
+      "approval": "designer approved",
+      "availability": "live",
+      "runtime_minutes": 2.8,
+      "accessibility": "captions verified by designer; learner transcript provided",
+      "transcript_path": "content/transcripts/r005-what-is-sprint-planning-in-scrum-transcript.md",
+      "transcript_status": "learner transcript created from YouTube transcript/caption track"
+    },
+    {
+      "resource_id": "R021",
+      "approval": "designer approved",
+      "availability": "public",
+      "runtime_minutes": 3.8,
+      "accessibility": "captions verified by designer; learner transcript provided",
+      "transcript_path": "content/transcripts/r021-how-to-write-good-user-stories-in-agile-transcript.md",
+      "transcript_status": "learner transcript created from YouTube automatic captions; designer verified"
+    },
+    {
+      "resource_id": "R020",
+      "approval": "designer approved restored video",
+      "availability": "public",
+      "runtime_minutes": 3,
+      "accessibility": "YouTube does not report captions; learner text alternative provided from ICAgile transcript",
+      "transcript_path": "content/transcripts/r020-the-agile-mindset-icagile-text-alternative.md",
+      "transcript_status": "learner text alternative based on ICAgile published transcript"
+    },
+    {
+      "resource_id": "R022",
+      "approval": "designer approved for Lesson 4.3 placement on 2026-09-13",
+      "availability": "public",
+      "runtime_minutes": 5.5,
+      "accessibility": "captions verified by caption track availability; learner transcript provided",
+      "transcript_path": "content/transcripts/r022-what-is-kanban-agile-coach-transcript.md",
+      "transcript_status": "learner transcript created from YouTube captions/subtitles; transcript wording available for designer review"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G-001",
+      "lesson": 1,
+      "path": "assets/images/lesson-01-short-cycles-feedback-improvement-v2.png",
+      "status": "approved"
+    },
+    {
+      "id": "G-002",
+      "lesson": 2,
+      "path": "assets/images/lesson-02-one-scrum-team-shared-product-goal.png",
+      "status": "approved"
+    },
+    {
+      "id": "G-003",
+      "lesson": 3,
+      "path": "native accessible template",
+      "status": "resolved without generated graphic"
+    },
+    {
+      "id": "G-004",
+      "lesson": 4,
+      "path": "assets/images/lesson-04-visible-work-board.png",
+      "status": "revised for designer review",
+      "alt": "Student Hub graphic showing an ordered Product Backlog next to a visible work board with Ready, In Progress, Blocked, and Done columns.",
+      "caption": "The backlog explains why work comes first. The board shows where each item is now.",
+      "note": "Renamed asset reference on 2026-09-13 so browsers load the revised visible-work graphic instead of a cached prior image."
+    },
+    {
+      "id": "G-005",
+      "lesson": 5,
+      "path": "assets/images/lesson-05-sprint-planning-capacity-points.png",
+      "status": "revised for designer review",
+      "alt": "Student Hub sprint planning graphic showing an ordered Product Backlog, 13 capacity points with 2 reserved for quality, a Sprint Goal, selected Sprint Backlog items, and a Definition of Done check.",
+      "caption": "A strong Sprint plan connects the goal, selected work, capacity, and quality.",
+      "note": "Revised on 2026-09-13 to use capacity points and align with the Sprint Planning Meeting step."
+    },
+    {
+      "id": "G-006",
+      "lesson": 6,
+      "path": "native accessible board",
+      "status": "resolved without generated graphic"
+    },
+    {
+      "id": "G-007",
+      "lesson": 7,
+      "path": "assets/images/lesson-07-product-and-process-improvement.png",
+      "status": "approved"
+    },
+    {
+      "id": "G-008",
+      "lesson": 8,
+      "path": "assets/images/lesson-08-scrum-informed-agile-cycle-v3.png",
+      "status": "approved"
+    }
+  ],
+  "attribution": [],
+  "approvals": {
+    "source_fidelity": {
+      "status": "approved",
+      "approved_at": "2026-09-03",
+      "evidence": "Designer approved the concise replacement wording for AG.1 through AG.10 as authoritative."
+    },
+    "blueprint": {
+      "status": "approved",
+      "approved_at": "2026-09-03",
+      "evidence": "Designer approved the eight-lesson sequence, proposed authoritative sources, pacing, step structure, and Computer Science Student Hub application scope."
+    },
+    "preview": {
+      "status": "in progress",
+      "evidence": "Lessons 1-3 have designer-approved preview/content updates; Lesson 3 program-scenario contexts verified on 2026-09-13. Remaining lessons still require preview approval before publishing."
+    },
+    "live_publish": null
+  },
+  "updated_at": "2026-09-13"
+}

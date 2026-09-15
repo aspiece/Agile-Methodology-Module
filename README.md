@@ -10,8 +10,8 @@ Every module contains eight lessons. Each lesson uses these semantic step number
 - `.2` Connect and Learn — required, one primary video or equivalent resource, and a check for understanding
 - `.3` Additional instruction or guided practice — optional; includes a check unless an approved override is recorded
 - `.4` Additional instruction or guided practice — optional; includes a check unless an approved override is recorded
-- `.5` Apply Your Learning — required
-- `.6` Lesson assessment handoff — required
+- Apply Your Learning — required; takes the next available step number
+- Lesson assessment handoff — required; follows the application with no gap
 
 The progress indicator counts only the steps that exist. Optional steps are not created merely to fill space.
 
@@ -21,7 +21,7 @@ The progress indicator counts only the steps that exist. Optional steps are not 
 - Student-facing reading target: grades 7–8
 - Weekly learner time: approximately 50 minutes, including the lesson assessment
 - Accessibility target: WCAG 2.2 AA and Universal Design for Learning
-- CTE application: `.5` provides meaningful program-specific application when the module is designated as CTE
+- CTE application: the application step provides meaningful program-specific practice when the module is designated as CTE
 - Assessment location: learners return to their course; the public site does not collect student information
 - Mastery: 80%, up to three attempts, highest score retained, questions and appropriate choices shuffled, correct answers hidden, and results released by the instructor
 

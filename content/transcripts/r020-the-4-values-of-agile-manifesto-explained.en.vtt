@@ -1,0 +1,333 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.110 --> 00:00:05.120
+Do hit the like button if you like this video
+and subscribe to our channel for more such videos.
+
+00:00:05.120 --> 00:00:08.660
+ 
+
+00:00:08.660 --> 00:00:11.419
+Hello and welcome to KnowledgeHut
+
+00:00:11.419 --> 00:00:15.750
+Building a product successfully doesn’t
+mean building a successful product.
+
+00:00:15.750 --> 00:00:19.950
+Building a product successfully doesn’t
+create value for the customer, but building
+
+00:00:19.950 --> 00:00:22.420
+a successful product does.
+
+00:00:22.420 --> 00:00:27.430
+Therefore it is logical to aim at building
+a successful product instead of aiming to
+
+00:00:27.430 --> 00:00:29.680
+build a product successfully.
+
+00:00:29.680 --> 00:00:35.750
+But before the arrival of Agile Manifesto,
+this was not the case in the software industry.
+
+00:00:35.750 --> 00:00:40.780
+Software development was being done by following
+a rigid process, a lot of importance was given
+
+00:00:40.780 --> 00:00:46.300
+to documentation, developers cared only about
+following the contracts instead of caring
+
+00:00:46.300 --> 00:00:49.200
+about delivering a useful product.
+
+00:00:49.200 --> 00:00:54.899
+As the complexities of the products kept increasing,
+so did the delivery time, what was being delivered
+
+00:00:54.899 --> 00:01:00.130
+was not meeting customer expectations and
+products were failing at a rapid rate.
+
+00:01:00.130 --> 00:01:05.860
+Then in 2001, 17 software developers came
+together to discuss possible lightweight methods
+
+00:01:05.860 --> 00:01:07.660
+for software development.
+
+00:01:07.660 --> 00:01:12.940
+They came up with a manifesto which had 4
+values and 12 principles to make the software
+
+00:01:12.940 --> 00:01:15.580
+development process more agile.
+
+00:01:15.580 --> 00:01:19.680
+This manifesto is known as the Agile Manifesto.
+
+00:01:19.680 --> 00:01:24.500
+These values and principles brought tremendous
+improvements in the software development process
+
+00:01:24.500 --> 00:01:28.941
+and now they are even being followed for the
+development of non-software products, such
+
+00:01:28.941 --> 00:01:35.049
+as computers, motor vehicles, medical devices,
+food, clothing, and music etc.
+
+00:01:35.049 --> 00:01:40.640
+In this video, we will be discussing the four
+values given in the Agile manifesto one by one.
+
+00:01:40.640 --> 00:01:45.000
+Individuals and interactions over process
+and tools.
+
+00:01:45.770 --> 00:01:49.950
+During the time of Waterfall method, a lot
+of attention was given to the processes being
+
+00:01:49.950 --> 00:01:50.950
+followed.
+
+00:01:50.950 --> 00:01:56.869
+Waterfall method itself was a 5 step process
+which had to be followed in order to develop software.
+
+00:01:57.869 --> 00:02:02.250
+Following stringent processes used to make
+the development process rigid and changes
+
+00:02:02.250 --> 00:02:05.250
+could not be brought easily when required.
+
+00:02:05.250 --> 00:02:10.450
+Additionally, a well-defined process is not
+the answer to every problem.
+
+00:02:10.450 --> 00:02:15.620
+No matter how detailed and well defined a
+process is, there will always come some barriers
+
+00:02:15.620 --> 00:02:19.530
+which couldn’t have been anticipated by
+any process or tool.
+
+00:02:19.530 --> 00:02:24.530
+Such barriers are overcome when individuals
+sit together, discuss and find the solution
+
+00:02:24.530 --> 00:02:25.840
+of the problems.
+
+00:02:25.840 --> 00:02:31.760
+Also, innovation doesn’t come from rigid
+processes but it comes from free minds.
+
+00:02:31.760 --> 00:02:36.540
+This is why the Agile Manifesto says that
+we should focus more on having competent people
+
+00:02:36.540 --> 00:02:38.930
+working together effectively.
+
+00:02:38.930 --> 00:02:43.690
+Process and tools should be used but only
+until they are making things easy and effective
+
+00:02:43.690 --> 00:02:45.140
+for us.
+
+00:02:45.140 --> 00:02:48.270
+Working software over comprehensive documents.
+
+00:02:48.270 --> 00:02:52.210
+The Waterfall method used to start with heavy
+documentation process.
+
+00:02:52.210 --> 00:02:57.220
+A lot of documentation used to be done before
+even starting to build the software.
+
+00:02:57.220 --> 00:03:03.360
+The features, specifications, layouts, requirements,
+test cases etc were documented long before
+
+00:03:03.360 --> 00:03:05.069
+their arrival time.
+
+00:03:05.069 --> 00:03:09.520
+This approach had some drawbacks like, what
+you have documented will be outdated by the
+
+00:03:09.520 --> 00:03:13.740
+time you are done with it, you may end up
+creating many features which may never be
+
+00:03:13.740 --> 00:03:19.340
+used by the end user, the time spent on the
+documentation of such features also goes in
+
+00:03:19.340 --> 00:03:20.390
+vain.
+
+00:03:20.390 --> 00:03:25.599
+Too much documentation also delays the project
+which later becomes an opportunity cost for
+
+00:03:25.599 --> 00:03:26.880
+the business.
+
+00:03:26.880 --> 00:03:32.790
+Because of all these drawbacks, Agile Manifesto
+favors working software over comprehensive
+
+00:03:32.790 --> 00:03:33.790
+documents.
+
+00:03:33.790 --> 00:03:38.000
+Instead of wasting a lot of time in creating
+long documents and then taking feedbacks on
+
+00:03:38.000 --> 00:03:43.650
+the basis of those documents, we should take
+the feedback on the basis of working software.
+
+00:03:43.650 --> 00:03:49.310
+A basic software with all the basic features
+should be created first and then it should
+
+00:03:49.310 --> 00:03:54.390
+be given to the end users and stakeholders,
+then on the basis of the feedback received
+
+00:03:54.390 --> 00:03:58.230
+from the users, further development should
+be carried out.
+
+00:03:58.230 --> 00:04:03.230
+In this way a lot of time is saved, also,
+the created software has the features which
+
+00:04:03.230 --> 00:04:05.780
+provide value to the end users
+
+00:04:05.780 --> 00:04:12.680
+Customer collaboration over contract negotiation
+In the traditional method of software development,
+
+00:04:12.680 --> 00:04:17.720
+the customer was involved only at the beginning
+of the project for contract negotiation, one
+
+00:04:17.720 --> 00:04:22.319
+more time if there are any changes to be made
+in the contract and finally at the end of
+
+00:04:22.319 --> 00:04:23.669
+the project.
+
+00:04:23.669 --> 00:04:28.139
+The development process was more focussed
+on what is written in the contract instead
+
+00:04:28.139 --> 00:04:31.330
+of being focused on what the customer wants.
+
+00:04:31.330 --> 00:04:35.879
+This approach neglected the value of customer
+feedback during the project.
+
+00:04:35.879 --> 00:04:40.729
+When software is developed without the constant
+feedback of the customer, the end result is
+
+00:04:40.729 --> 00:04:45.669
+often a product which does not satisfy the
+needs of the customers completely.
+
+00:04:45.669 --> 00:04:51.729
+This is why the Agile Manifesto favours customer
+collaboration over contract negotiation.
+
+00:04:51.729 --> 00:04:56.169
+Agile emphasises on taking constant feedbacks
+from the customer throughout the development
+
+00:04:56.169 --> 00:05:01.879
+process so that whatever is being developed
+is also being seen by the customer.
+
+00:05:01.879 --> 00:05:06.020
+Whenever the customer feels that the project
+is going in the wrong direction then he or
+
+00:05:06.020 --> 00:05:10.949
+she can steer the project by providing inputs
+to the developers.
+
+00:05:10.949 --> 00:05:16.089
+Respond to change over following plan
+Traditional software development methods were
+
+00:05:16.089 --> 00:05:18.199
+not in the favour of change.
+
+00:05:18.199 --> 00:05:23.099
+The traditional approach was to create detailed
+plans in the beginning and then following
+
+00:05:23.099 --> 00:05:25.020
+them throughout the project.
+
+00:05:25.020 --> 00:05:30.449
+Being rigid does not only lead to the creation
+of an improper product but it also makes us
+
+00:05:30.449 --> 00:05:34.899
+miss the chances of bringing changes which
+could make our product better.
+
+00:05:34.899 --> 00:05:40.569
+This is why Agile manifesto favours responding
+to change over following plans.
+
+00:05:40.569 --> 00:05:45.689
+When software is developed with agility we
+start with a plan which give us enough idea
+
+00:05:45.689 --> 00:05:48.479
+of the direction towards we want to move.
+
+00:05:48.479 --> 00:05:53.779
+Then as we proceed and see new events unfolding
+in front of us we incorporate those realities
+
+00:05:53.779 --> 00:05:55.770
+into the ongoing work.
+
+00:05:55.770 --> 00:06:00.969
+New events are nots seen as obstacles but
+anything new in our way becomes an opportunity
+
+00:06:00.969 --> 00:06:03.789
+for us to provide additional value.
+
+00:06:03.789 --> 00:06:07.429
+So these were the four values of Agile Manifesto.
+
+00:06:07.429 --> 00:06:10.800
+Follow them in your project management to
+ensure its success.
+
+00:06:10.800 --> 00:06:15.809
+Don’t forget to subscribe knowledgehut and
+visit our website for Agile related trainings.
+

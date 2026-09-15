@@ -1,0 +1,9 @@
+resource_id,title,url,status,runtime_minutes,caption_status,proposed_use,release_risk
+R001,"Agile, Explained: Daily Standup Meetings",https://www.youtube.com/watch?v=mANyczXTqOY,Live,1.3,"English creator-provided track reported","Lesson 6 required .2","Caption accuracy still requires human verification"
+R002,"What is Agile? | Atlassian Answered",https://www.youtube.com/watch?v=4Ugsu2n2cLE,Public,5.1,"Automatic English captions available; accuracy needs designer verification","Lesson 1 required .2","Approved replacement; learner text alternative provided"
+R003,"11 - Product Backlog - Scrum Foundations eLearning Series",https://youtu.be/vbKcZiA_4iM,Live,2.3,"English creator-provided track reported","Lesson 4 required .2","Caption accuracy still requires human verification"
+R004,"Scrum Master role in 5 mins",https://youtu.be/PPt9H5sY7_A,"Access conflict",,"Not verified","Lesson 2 supplemental only","OEmbed reports live while direct inspection reports unavailable"
+R005,"What is Sprint Planning in Scrum?",https://youtu.be/R7oXgtPOj74,Live,2.8,"Automatic English captions reported","Lesson 5 required .2","Caption accuracy or equivalent transcript required"
+R006,"Manifesto for Agile Software Development",https://agilemanifesto.org/,Live,,"Text resource","Lesson 1 .3","Proposed source requires blueprint approval"
+R007,"The 2020 Scrum Guide",https://scrumguides.org/scrum-guide.html,Live,,"Text and PDF resource","Authoritative reference across Lessons 2–8","Proposed source requires blueprint approval; excerpts must be concise and attributed"
+R020,"The Agile Mindset, A Different Way of Working",https://www.youtube.com/watch?v=ESDQCcnapGA,Public,3.0,"No caption track reported; learner text alternative provided from ICAgile's published transcript","Lesson 1 required .3","Approved replacement; verify captions before release or retain the text alternative as an equivalent"

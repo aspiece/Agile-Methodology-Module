@@ -193,8 +193,8 @@ def main() -> None:
 
         application = app_rows.get(number)
         if not application:
-            raise SystemExit(f"Lesson {number}.5 requires an approved Application Activities row.")
-        steps["5"] = {
+            raise SystemExit(f"Lesson {number} requires an approved Application Activities row.")
+        steps["application"] = {
             "type": "application",
             "title": clean(application.get("Activity Title")),
             "intro": clean(application.get("Purpose")),
@@ -202,7 +202,7 @@ def main() -> None:
             "directions": split_paragraphs(application.get("Directions")),
             "program_scenarios": scenarios.get(number, []),
         }
-        steps["6"] = {"type": "assessment", "title": f"Lesson {number} Assessment"}
+        steps["assessment"] = {"type": "assessment", "title": f"Lesson {number} Assessment"}
 
         lessons.append({
             "number": number,

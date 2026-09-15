@@ -1,0 +1,34 @@
+# Transcript: 06 - Sprint Planning Meeting - Scrum Foundations eLearning Series
+
+
+
+Source video: https://www.youtube.com/watch?v=H23LUCBFjkw
+
+
+
+This transcript is provided as an accessible text alternative for learners.
+
+
+
+In this video, we'll learn all about the Sprint Planning meeting. We will cover the inputs to the meeting: the Goals; Who attends; the timebox; the general approach to running the meeting; and the outputs. As its name implies, the Sprint Planning meeting is used to plan the work of the Sprint. The meeting doesn't happen before the Sprint starts, but is the first event within the Sprint. This is true of all Scrum events. Everything happens within a Sprint, and there is no pause between Sprints. The Sprint Planning meeting has two primary Goals: First, determine what can be delivered in the Sprint; and second, to plan how to achieve that delivery.
+
+The entire Scrum Team attends the Sprint Planning meeting. The Product Owner's role tends to be more active during discussions of "what can be delivered," and less active while the Development Team plans how to achieve the delivery, participating as questions arise. The Sprint Planning meeting is timeboxed to eight hours for a one-month Sprint. For shorter sprints, the timebox is shorter. A standard guideline is two hours of planning for every one week of Sprint. Remember: A timebox is a maximum amount of time, not a minimum or suggested amount of time. Many experienced Scrum Teams regularly spend far less than the timebox in Sprint Planning. All Scrum events are timeboxed.
+
+With a limited amount of time, the team feels a sense of urgency to accomplish the goals of the timeboxed event. Nearly all people work most effectively when there are realistic, but honored, deadlines in place. Since the team knows there is limited time, they tend to focus on accomplishing the most important things during that time. Skilled ScrumMaster use the timebox as a reason to move the conversation along when it is not serving the meetings purpose. In this way, timeboxes are a constraint that help focus on the value we can add by collaborating. Parkinson's law states that work expands to fill the time allotted.
+
+In everyday terms, this means that a meeting that is scheduled for one hour will tend to take the full hour regardless of what gets accomplished. Rather than allotting the exact amount of time a Scrum Event will take, Scrum specifies the maximum time the timebox. A skilled ScrumMaster will help the team focus only on accomplishing the goals of the meeting. Experienced Scrum Teams should find that many Scrum Events are accomplished well before the timebox expires. The Sprint Planning meeting is typically divided into two parts. Historically, these were referred to as Part A and Part B, though that language is not part of the current official Scrum Guide.
+
+Instead the Scrum Guide refers to two topics of discussion related to the two goals: What can be delivered, and How will we deliver it? the four inputs to the meeting are: the latest product Increment, if the Sprint is for ongoing development; the current Product Backlog; the projected capacity of the Development Team during this Sprint; and past performance of the Development Team. The first two inputs, the Increment and Product Backlog, help us inspect and adapt on the product itself: What is the most important thing to deliver, which can we use to craft the Sprint goal? The second two inputs are related to understanding how much can we take on.
+
+Past performance is helpful guidance to the team to understand what, on average, they can achieve during a given Sprint. An analogy from the sports world is that historic performance would be like the average number of points scored per game for a team over the course of an entire season. It is a good long-term guideline. Capacity in the sports analogy would be to look at tonight's game, assessing who is on the active roster, whether the team might be fatigued from the recent schedule, and the strengths and weaknesses of tonight's opponent.
+
+A Scrum Team might consider various individual's planned time off or other commitments inside and out of work, the specific Product Backlog items under consideration and what skills are required to deliver them, any holidays that might fall within the Sprint, etc. With these inputs in place, the Scrum Team enters into the first topic of discussion: What can be achieved in the Sprint? This is accomplished by the Scrum Team collaborating to understand all of the inputs, and finally by the Development Team pulling Product Backlog items into the Sprint.
+
+Only the Development Team can make this assessment of what to pull into the Sprint and any attempt by others outside of the Development Team will lead to some sort of dysfunction and typically to a reduction in quality. Experienced Scrum Teams tend to spend very little time on the first topic, since they actively refine the Product Backlog on an ongoing basis. Once the Development Team has made their forecast for what can be achieved in the Sprint, the entire Scrum Team collaborates to choose a Sprint Goal. The Sprint Goal helps clarify the overarching purpose of the Sprint. Understanding the purpose and impact of the work is a critical factor in creating high-performing teams.
+
+With the selected product backlog items and a sprint goal in place the scrum team moves into the second topic of discussion: How will the chosen work get done? The selected Product Backlog, items are now contained in the Sprint Backlog, which is the Development Team's plan for the Sprint. They collaborate to design the system and decompose the work required to deliver the selected Product Backlog items. These details are added to the Sprint Backlog. Effective Development Teams tend to decompose all work into small units that can be completed in no more than a day or two. They ensure that all work required to meet the team's definition of "Done" is captured in the Sprint Backlog.
+
+As the Development Team creates the Sprint Backlog they may discover that the work was larger than forecasted, in which case they discuss with the Product Owner what might be removed, while still meeting the Sprint Goal or if the Sprint Goal should be revised. The Product Owner also answers any new questions that arise about the details of the Product Backlog items that have been selected. When the meeting is complete, the Development Team should be able to explain how they plan to act as a self-organizing unit to deliver a working product Increment that meets the Sprint Goal, and contains all of the capabilities represented by the selected Product Backlog items.
+
+The outputs of the Sprint Planning meeting then are a finalized Sprint Goal and the Development Team's Sprint Backlog. With those in place, the Development Team is ready to begin working on the items in the Sprint Backlog.
+
