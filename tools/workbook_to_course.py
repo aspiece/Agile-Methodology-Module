@@ -187,6 +187,7 @@ def main() -> None:
                 "source_ids": split_values(source.get("Additional Source IDs")),
                 "graphic": graphic,
                 "check": approved_checks[0] if approved_checks else None,
+                "checks": approved_checks,
                 "check_override_reason": override,
                 "estimated_minutes": source.get("Estimated Minutes") or 0,
             }

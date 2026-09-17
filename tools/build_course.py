@@ -225,31 +225,39 @@ def render_optional_videos(source_ids: list[str] | None, primary_ids: list[str] 
     )
 
 
-def render_question(check: dict | None, lesson_number: int, step_number: str) -> str:
-    if not check:
-        reason = esc(check.get("override_reason")) if isinstance(check, dict) else ""
+def render_question(check_data, lesson_number: int, step_number: str) -> str:
+    checks = check_data if isinstance(check_data, list) else ([check_data] if check_data else [])
+    checks = [check for check in checks if check]
+    if not checks:
+        reason = esc(check_data.get("override_reason")) if isinstance(check_data, dict) else ""
         note = f" Designer decision: {reason}" if reason else ""
         return f'<p class="placeholder-note">A check for understanding has not been approved for this step.{note}</p>'
-    choices = []
-    input_type = "checkbox" if check.get("type") == "multiple_select" else "radio"
-    name = f"check-{lesson_number}-{step_number}"
-    for choice in check.get("choices", []):
-        choices.append(
-            f'<label><input type="{input_type}" name="{esc(name)}" value="{esc(choice.get("id"))}"> '
-            f'<span>{esc(choice.get("text"))}</span></label>'
+    articles = []
+    for index, check in enumerate(checks, start=1):
+        choices = []
+        input_type = "checkbox" if check.get("type") == "multiple_select" else "radio"
+        name = f"check-{lesson_number}-{step_number}-{index}"
+        for choice in check.get("choices", []):
+            choices.append(
+                f'<label><input type="{input_type}" name="{esc(name)}" value="{esc(choice.get("id"))}"> '
+                f'<span>{esc(choice.get("text"))}</span></label>'
+            )
+        correct = esc(json.dumps([str(value) for value in check.get("correct", [])]))
+        articles.append(
+            f'<article class="question" data-correct="{correct}" '
+            f'data-feedback-correct="{esc(check.get("feedback_correct"))}" '
+            f'data-feedback-incorrect="{esc(check.get("feedback_incorrect"))}">'
+            f'<h4>Question {index}</h4>'
+            f'<p>{esc(check.get("prompt"))}</p>'
+            f'<div class="choices">{"".join(choices)}</div>'
+            '<button class="check-answer" type="button">Check my answer</button>'
+            '<div class="feedback" role="status" hidden></div>'
+            '</article>'
         )
-    correct = esc(json.dumps([str(value) for value in check.get("correct", [])]))
     return (
         '<section class="question-set" aria-label="Check for understanding">'
-        f'<article class="question" data-correct="{correct}" '
-        f'data-feedback-correct="{esc(check.get("feedback_correct"))}" '
-        f'data-feedback-incorrect="{esc(check.get("feedback_incorrect"))}">'
         '<h3>Check for understanding</h3>'
-        f'<p>{esc(check.get("prompt"))}</p>'
-        f'<div class="choices">{"".join(choices)}</div>'
-        '<button class="check-answer" type="button">Check my answer</button>'
-        '<div class="feedback" role="status" hidden></div>'
-        '</article></section>'
+        f'{"".join(articles)}</section>'
     )
 
 
@@ -399,7 +407,7 @@ def render_instruction(lesson: dict, suffix: str, step: dict, resources: dict[st
             f'{graphic_html}'
             f'{paragraphs(after_graphic_items)}'
             f'{render_resources(reading_resource_ids, resources)}'
-            f'{render_question(step.get("check"), number, suffix)}'
+            f'{render_question(step.get("checks") or step.get("check"), number, suffix)}'
             f'{render_optional_videos(step.get("source_ids", []), step.get("resource_ids", []), resources)}'
             f'{render_sources(source_ids, resources)}'
             '</section>'
@@ -417,7 +425,7 @@ def render_instruction(lesson: dict, suffix: str, step: dict, resources: dict[st
         f'{worked_example_html}'
         f'{render_resources(reading_resource_ids, resources)}'
         f'{render_optional_videos(step.get("source_ids", []), step.get("resource_ids", []), resources)}'
-        f'{render_question(step.get("check"), number, suffix)}'
+        f'{render_question(step.get("checks") or step.get("check"), number, suffix)}'
         f'{render_sources(source_ids, resources)}'
         '</section>'
     )

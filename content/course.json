@@ -465,9 +465,10 @@
         "2": {
           "type": "connect",
           "title": "Connect and Learn: When Plans Change",
-          "focus": "CONNECT, Think of a time when new information changed a plan. What changed? What did you do next? Keep your answer in mind.",
+          "focus": "Think of a time when new information changed a plan. What changed? What did you do next? Keep your answer in mind.",
           "body": [
             "LEARN, Software teams do not know every detail at the start. Agile helps them learn while they build. In each short cycle, a team plans, builds, tests, and gets feedback. Then the team uses that evidence to improve the product.",
+            "A predictive approach creates a detailed plan early and generally follows that plan unless it is formally changed. An Agile approach uses new evidence to adjust what the team does next.",
             "One cycle is called an iteration. A usable piece of the product is an increment. Feedback can come from users, stakeholders, tests, or teammates. Agile teams still plan, record key choices, and protect quality. They change the plan when evidence points to a better path."
           ],
           "resource_ids": [
@@ -527,6 +528,88 @@
           "estimated_minutes": 13,
           "after_graphic": [
             "Now connect the cycle to Student Hub. Students report that the calendar does not work well on a phone. The team can study that feedback and plan a small fix. This choice protects quality and responds to a real user need."
+          ],
+          "checks": [
+            {
+              "id": "CFU-1-2-01",
+              "type": "multiple_choice",
+              "prompt": "Student Hub users cannot use an important feature on their phones. Which action best follows an Agile approach?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Finish the original plan before discussing the problem."
+                },
+                {
+                  "id": "b",
+                  "text": "Use the new evidence to change priorities and plan an improvement."
+                },
+                {
+                  "id": "c",
+                  "text": "Discard all completed work and restart the product."
+                },
+                {
+                  "id": "d",
+                  "text": "Stop planning and react to every request."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. Agile teams use evidence to update plans while protecting quality.",
+              "feedback_incorrect": "Review how feedback helps a team change its plan without giving up planning or quality.",
+              "source_ids": [
+                "R002",
+                "R006"
+              ],
+              "standard_ids": [
+                "AG.1",
+                "AG.2"
+              ],
+              "objective_ids": [
+                "L1 O2",
+                "L1 O3"
+              ]
+            },
+            {
+              "id": "CFU-1-2-02",
+              "type": "multiple_choice",
+              "prompt": "Why should an Agile team test a small Student Hub update before building every requested feature?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It helps the team learn from users and improve the product sooner."
+                },
+                {
+                  "id": "b",
+                  "text": "It lets the team avoid user feedback until the end."
+                },
+                {
+                  "id": "c",
+                  "text": "It proves the first plan should not change."
+                },
+                {
+                  "id": "d",
+                  "text": "It removes the need for a Product Backlog."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Agile teams use small updates and feedback to learn before making more changes.",
+              "feedback_incorrect": "Not quite. Agile work uses small updates so the team can learn from users and adapt.",
+              "source_ids": [
+                "R002",
+                "R006"
+              ],
+              "standard_ids": [
+                "AG.1",
+                "AG.2"
+              ],
+              "objective_ids": [
+                "L1 O2",
+                "L1 O3"
+              ]
+            }
           ]
         },
         "3": {
@@ -594,7 +677,7 @@
           ],
           "worked_example": {
             "title": "Watch the team make an Agile decision",
-            "intro": "The team planned to add profile themes. A quick test shows that assignment due dates are hard to scan on small screens. Follow the team’s decision from evidence to a small test.",
+            "intro": "The team planned to add profile themes. A quick test shows that assignment due dates are hard to scan on small screens. Follow the team\u2019s decision from evidence to a small test.",
             "steps": [
               {
                 "label": "New evidence",
@@ -621,7 +704,83 @@
                 "text": "Test the revised card with a few users before changing the whole app."
               }
             ]
-          }
+          },
+          "checks": [
+            {
+              "id": "CFU-1-3-01",
+              "type": "multiple_choice",
+              "prompt": "A team keeps its release plan. It changes the next feature after users report an access barrier. Which Agile value is clearest?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Individuals and interactions over processes and tools"
+                },
+                {
+                  "id": "b",
+                  "text": "Working software over comprehensive documentation"
+                },
+                {
+                  "id": "c",
+                  "text": "Customer collaboration over contract negotiation"
+                },
+                {
+                  "id": "d",
+                  "text": "Responding to change over following a plan"
+                }
+              ],
+              "correct": [
+                "d"
+              ],
+              "feedback_correct": "Correct. The team uses new evidence to update its plan.",
+              "feedback_incorrect": "The plan still matters, but user evidence shows that a change is needed.",
+              "source_ids": [
+                "R006"
+              ],
+              "standard_ids": [
+                "AG.1"
+              ],
+              "objective_ids": [
+                "L1 O1"
+              ]
+            },
+            {
+              "id": "CFU-1-3-02",
+              "type": "multiple_choice",
+              "prompt": "Which action best shows responding to change over following a plan?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The team updates the next backlog item after user feedback shows a higher need."
+                },
+                {
+                  "id": "b",
+                  "text": "The team keeps building the original feature even after users report a barrier."
+                },
+                {
+                  "id": "c",
+                  "text": "The team stops asking users for feedback once the plan is written."
+                },
+                {
+                  "id": "d",
+                  "text": "The team hides new problems so the schedule looks stable."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Agile teams value plans, but they adapt when evidence shows a better path.",
+              "feedback_incorrect": "Review the Agile values. Responding to change means using evidence to adapt the plan.",
+              "source_ids": [
+                "R006"
+              ],
+              "standard_ids": [
+                "AG.1"
+              ],
+              "objective_ids": [
+                "L1 O1"
+              ]
+            }
+          ]
         },
         "4": null,
         "application": {
@@ -644,22 +803,13 @@
             "Choose the work the team should do next. Connect your choice to one Agile value.",
             "Propose one small product increment to test. Explain how the test can lower risk."
           ],
-          "response_choices": {
-            "title": "Choose how to show your thinking",
-            "intro": "Use one option. Your response must answer all three prompts.",
-            "options": [
-              "Type in the response boxes.",
-              "Use an accessible document with the same three prompts.",
-              "Record a spoken response or create a simple decision map if your instructor approves."
-            ]
-          },
           "program_scenarios": [
             {
               "program": "Software Development",
               "id": "SCN-1-001",
               "situation": "The Student Hub team planned to build event reminders next. Testing now shows the calendar is hard to use on a phone, and keyboard users cannot reach the date filter.",
               "prompts": [
-                "What might a predictive approach do if the team followed the original plan?",
+                "If the team continued following its original predictive plan, what would it build next?",
                 "What work should the team do next? Connect your choice to one Agile value.",
                 "What small product increment could the team test? How could the test lower risk?"
               ],
@@ -676,7 +826,7 @@
               "id": "SCN-1-002",
               "situation": "A security team planned to add a new report. A test shows that users stay signed in on shared lab computers after they close the browser.",
               "prompts": [
-                "What might a predictive approach do if the team followed the original plan?",
+                "If the team continued following its original predictive plan, what would it build next?",
                 "What work should the team do next? Connect your choice to one Agile value.",
                 "What small product increment could the team test? How could the test lower risk?"
               ],
@@ -691,7 +841,7 @@
               "id": "SCN-1-003",
               "situation": "A data team planned to add a new chart. A review shows that the dashboard uses old data but does not show when the data was last updated.",
               "prompts": [
-                "What might a predictive approach do if the team followed the original plan?",
+                "If the team continued following its original predictive plan, what would it build next?",
                 "What work should the team do next? Connect your choice to one Agile value.",
                 "What small product increment could the team test? How could the test lower risk?"
               ],
@@ -706,7 +856,7 @@
               "id": "SCN-1-004",
               "situation": "An AI team planned to add longer study summaries. User tests show that some current summaries leave out key facts.",
               "prompts": [
-                "What might a predictive approach do if the team followed the original plan?",
+                "If the team continued following its original predictive plan, what would it build next?",
                 "What work should the team do next? Connect your choice to one Agile value.",
                 "What small product increment could the team test? How could the test lower risk?"
               ],
@@ -721,7 +871,7 @@
               "id": "SCN-1-005",
               "situation": "A game team planned to build a new level. Playtests show that some players cannot remap the controls they need to use.",
               "prompts": [
-                "What might a predictive approach do if the team followed the original plan?",
+                "If the team continued following its original predictive plan, what would it build next?",
                 "What work should the team do next? Connect your choice to one Agile value.",
                 "What small product increment could the team test? How could the test lower risk?"
               ],
@@ -736,7 +886,7 @@
               "id": "SCN-1-006",
               "situation": "A device team planned to add a new display. Tests show that its sensor sometimes reports a safe temperature when the device is too warm.",
               "prompts": [
-                "What might a predictive approach do if the team followed the original plan?",
+                "If the team continued following its original predictive plan, what would it build next?",
                 "What work should the team do next? Connect your choice to one Agile value.",
                 "What small product increment could the team test? How could the test lower risk?"
               ],
@@ -750,7 +900,7 @@
           "team_handoff": {
             "title": "Team handoff",
             "prompt": "Finish this statement: Our team should ___ next because the evidence shows ___.",
-            "help": "Keep this short summary. You will return to the team’s work in Lesson 2."
+            "help": "Keep this short summary. You will return to the team\u2019s work in Lesson 2."
           },
           "estimated_minutes": 13
         },
@@ -807,7 +957,7 @@
         "2": {
           "type": "connect",
           "title": "Connect and Learn: What Is Scrum?",
-          "focus": "CONNECT, Work on your own. Think about a team that has to build something useful in a short time. What would help the team stay focused? Keep one idea in mind.",
+          "focus": "Work on your own. Think about a team that has to build something useful in a short time. What would help the team stay focused? Keep one idea in mind.",
           "body": [
             "LEARN, Scrum is one Agile framework. A framework is a simple structure a team can use to organize work. Scrum does not replace Agile values. It gives the team clear roles, events, and artifacts. These parts help the team see the work.",
             "A Scrum Team works toward one Product Goal. The team plans a short cycle of work. It creates a usable product Increment. Then the team inspects feedback and adapts what comes next. Scrum helps Student Hub stay focused as needs change."
@@ -866,7 +1016,87 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 8
+          "estimated_minutes": 8,
+          "checks": [
+            {
+              "id": "CFU-2-2-01",
+              "type": "multiple_choice",
+              "prompt": "The Student Hub team must decide how to complete a selected backlog item. Who is accountable for organizing this work?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The Product Owner, because that person assigns every task"
+                },
+                {
+                  "id": "b",
+                  "text": "The Scrum Master, because that person manages the Developers"
+                },
+                {
+                  "id": "c",
+                  "text": "The Developers, because they decide how to complete the work"
+                },
+                {
+                  "id": "d",
+                  "text": "The stakeholders, because they requested the feature"
+                }
+              ],
+              "correct": [
+                "c"
+              ],
+              "feedback_correct": "Correct. Developers decide how to organize and complete the selected work.",
+              "feedback_incorrect": "Review the difference between ordering product work and deciding how the work will be completed.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6"
+              ],
+              "objective_ids": [
+                "L2 O1",
+                "L2 O2"
+              ]
+            },
+            {
+              "id": "CFU-2-2-02",
+              "type": "multiple_choice",
+              "prompt": "In Scrum, what does a Sprint help the team do?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Create a usable product increment within a short, focused cycle."
+                },
+                {
+                  "id": "b",
+                  "text": "Delay testing until all lessons are complete."
+                },
+                {
+                  "id": "c",
+                  "text": "Let one person make every product decision alone."
+                },
+                {
+                  "id": "d",
+                  "text": "Replace teamwork with a fixed checklist."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A Sprint gives the team a short cycle for creating a usable increment.",
+              "feedback_incorrect": "Not quite. A Sprint is a short cycle focused on a useful product increment.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6"
+              ],
+              "objective_ids": [
+                "L2 O1",
+                "L2 O2"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -957,7 +1187,87 @@
               "L2 O2"
             ]
           },
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-2-3-01",
+              "type": "multiple_choice",
+              "prompt": "Student testers say the calendar is hard to use on a phone. Which group gives this feedback?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Stakeholders"
+                },
+                {
+                  "id": "b",
+                  "text": "Scrum Master only"
+                },
+                {
+                  "id": "c",
+                  "text": "Developers only"
+                },
+                {
+                  "id": "d",
+                  "text": "Product Backlog"
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Stakeholders share needs, evidence, and feedback about the product.",
+              "feedback_incorrect": "Review who is inside the Scrum Team and who gives feedback from outside it.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6"
+              ],
+              "objective_ids": [
+                "L2 O1",
+                "L2 O2"
+              ]
+            },
+            {
+              "id": "CFU-2-3-02",
+              "type": "multiple_choice",
+              "prompt": "A Product Owner orders the backlog, and Developers decide how to build the selected work. What does this show?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Different Scrum accountabilities support one shared product goal."
+                },
+                {
+                  "id": "b",
+                  "text": "Only the Product Owner is responsible for product quality."
+                },
+                {
+                  "id": "c",
+                  "text": "Developers should wait for step by step directions."
+                },
+                {
+                  "id": "d",
+                  "text": "Scrum roles work best when each person works alone."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Scrum accountabilities are different, but they support one shared product goal.",
+              "feedback_incorrect": "Not quite. Scrum uses different accountabilities so the team can work toward one goal.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6"
+              ],
+              "objective_ids": [
+                "L2 O1",
+                "L2 O2"
+              ]
+            }
+          ]
         },
         "4": {
           "type": "learn",
@@ -1015,7 +1325,87 @@
               "L2 O3"
             ]
           },
-          "estimated_minutes": 7
+          "estimated_minutes": 7,
+          "checks": [
+            {
+              "id": "CFU-2-4-01",
+              "type": "multiple_choice",
+              "prompt": "The Student Hub team needs coding, testing, accessibility, and user feedback skills to finish a calendar improvement. What does this show?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The team is cross functional."
+                },
+                {
+                  "id": "b",
+                  "text": "The Scrum Master assigns all tasks."
+                },
+                {
+                  "id": "c",
+                  "text": "Stakeholders are Developers."
+                },
+                {
+                  "id": "d",
+                  "text": "The backlog is finished."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A cross functional team has the skills needed to create a useful Increment.",
+              "feedback_incorrect": "Look for the choice about the team having the skills needed to deliver useful work.",
+              "source_ids": [
+                "R007",
+                "R009"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6"
+              ],
+              "objective_ids": [
+                "L2 O3"
+              ]
+            },
+            {
+              "id": "CFU-2-4-02",
+              "type": "multiple_choice",
+              "prompt": "Why is a cross functional team useful for Student Hub work?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The team has the skills needed to deliver value without waiting on many handoffs."
+                },
+                {
+                  "id": "b",
+                  "text": "The team can skip testing because several people are involved."
+                },
+                {
+                  "id": "c",
+                  "text": "Each person only works inside one narrow role."
+                },
+                {
+                  "id": "d",
+                  "text": "The team no longer needs a shared goal."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Cross functional teams reduce handoffs because needed skills are on the team.",
+              "feedback_incorrect": "Review the purpose of cross functional teams. The goal is to deliver value with fewer handoffs.",
+              "source_ids": [
+                "R007",
+                "R009"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6"
+              ],
+              "objective_ids": [
+                "L2 O3"
+              ]
+            }
+          ]
         },
         "application": {
           "type": "application",
@@ -1038,15 +1428,6 @@
             "Choose who should lead each next action.",
             "Explain one choice. Name the role. Explain how different team skills or self management support your decision."
           ],
-          "response_choices": {
-            "title": "Choose how to show your thinking",
-            "intro": "Use one option. Your response must answer the prompts in your selected scenario.",
-            "options": [
-              "Type in the response boxes.",
-              "Use an accessible document with the same prompts.",
-              "Record a spoken response or create a simple decision map if your instructor approves."
-            ]
-          },
           "decision_table": {
             "title": "Decision guide",
             "intro": "Use these clues to choose the right person or group.",
@@ -1264,7 +1645,7 @@
         },
         {
           "term": "user story",
-          "definition": "A short description of a user’s need, goal, and reason for wanting a feature."
+          "definition": "A short description of a user\u2019s need, goal, and reason for wanting a feature."
         },
         {
           "term": "acceptance criteria",
@@ -1288,11 +1669,11 @@
         "2": {
           "type": "connect",
           "title": "Connect and Learn: User Stories",
-          "focus": "CONNECT, Work on your own. A student says, “I miss assignments because the Student Hub list is hard to scan on my phone.” What does the team need to know before building? Keep two questions in mind.",
+          "focus": "Work on your own. A student says, \u201cI miss assignments because the Student Hub list is hard to scan on my phone.\u201d What does the team need to know before building? Keep two questions in mind.",
           "body": [
             "LEARN, User needs often begin as broad requests. A software team needs to clarify the need before it builds. A user story is one common Agile practice. It is not an official Scrum artifact.",
             "A common format is: As a [user], I want [goal], so that [benefit]. The user tells who needs the feature. The goal states what the person needs. The benefit explains why it matters.",
-            "A strong user story focuses on value. It does not force one solution too early. For Student Hub, the team should understand the student’s problem before choosing a design or code change."
+            "A strong user story focuses on value. It does not force one solution too early. For Student Hub, the team should understand the student\u2019s problem before choosing a design or code change."
           ],
           "resource_ids": [
             "R021"
@@ -1306,7 +1687,7 @@
           "graphic": null,
           "worked_example": {
             "title": "Turn a vague request into a user story",
-            "intro": "Start with the user’s need. Then name the user, goal, and benefit.",
+            "intro": "Start with the user\u2019s need. Then name the user, goal, and benefit.",
             "steps": [
               {
                 "label": "Vague request",
@@ -1365,7 +1746,85 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-3-2-01",
+              "type": "multiple_choice",
+              "prompt": "Which user story best keeps the focus on user value?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Add a bigger button to the assignment page."
+                },
+                {
+                  "id": "b",
+                  "text": "As a student using a phone, I want to scan assignments by due date so that I can plan upcoming work."
+                },
+                {
+                  "id": "c",
+                  "text": "The team should redesign the whole Student Hub app."
+                },
+                {
+                  "id": "d",
+                  "text": "Students need something better."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. This story names the user, goal, and benefit.",
+              "feedback_incorrect": "Look for the choice that names who needs something, what they need, and why it matters.",
+              "source_ids": [
+                "S001",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.4"
+              ],
+              "objective_ids": [
+                "L3 O1"
+              ]
+            },
+            {
+              "id": "CFU-3-2-02",
+              "type": "multiple_choice",
+              "prompt": "Which user story keeps the user need and value clear?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "As a learner, I want assignment dates grouped by course so I can plan my week."
+                },
+                {
+                  "id": "b",
+                  "text": "Add course grouping to the app because it seems useful."
+                },
+                {
+                  "id": "c",
+                  "text": "Make the page look better before the next Sprint ends."
+                },
+                {
+                  "id": "d",
+                  "text": "The team should update the assignment screen."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. The story names the user, the need, and the value.",
+              "feedback_incorrect": "Look for the user, the need, and the reason the feature matters.",
+              "source_ids": [
+                "S001",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.4"
+              ],
+              "objective_ids": [
+                "L3 O1"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -1373,7 +1832,7 @@
           "focus": "Watch for how acceptance criteria help a team decide whether a story is ready to build and complete.",
           "body": [
             "Acceptance criteria describe what must be true for a story to work. Each criterion should be observable and testable. A tester should be able to check it without guessing.",
-            "Criteria describe product results, not development tasks. “Build the filter quickly” is not testable enough. “Keyboard users can reach and use the date filter” is testable because someone can try it.",
+            "Criteria describe product results, not development tasks. \u201cBuild the filter quickly\u201d is not testable enough. \u201cKeyboard users can reach and use the date filter\u201d is testable because someone can try it.",
             "Acceptance criteria also help the team protect access and quality. For Student Hub, the team can include criteria for small screens, keyboard use, clear messages, and correct results.",
             "The Product Backlog may contain user stories, but Scrum does not require that format. Developers use clear backlog items and the Definition of Done to create a usable Increment.",
             "Professional teams avoid vague backlog work because vague work creates rework, missed expectations, and testing confusion.",
@@ -1449,7 +1908,87 @@
               "L3 O2"
             ]
           },
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-3-3-01",
+              "type": "multiple_choice",
+              "prompt": "Which acceptance criterion is easiest for another person to test?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The calendar should look modern."
+                },
+                {
+                  "id": "b",
+                  "text": "Students will probably like the filter."
+                },
+                {
+                  "id": "c",
+                  "text": "Keyboard users can reach and use the date filter."
+                },
+                {
+                  "id": "d",
+                  "text": "The team should build the feature quickly."
+                }
+              ],
+              "correct": [
+                "c"
+              ],
+              "feedback_correct": "Correct. A tester can observe whether a keyboard user can reach and use the filter.",
+              "feedback_incorrect": "Choose a product result that can be observed and tested.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.4",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L3 O1",
+                "L3 O2"
+              ]
+            },
+            {
+              "id": "CFU-3-3-02",
+              "type": "multiple_choice",
+              "prompt": "Which acceptance criterion is easiest to test?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Given the learner filters by course, then only assignments from that course appear."
+                },
+                {
+                  "id": "b",
+                  "text": "The course filter should feel helpful to most learners."
+                },
+                {
+                  "id": "c",
+                  "text": "The assignment page should be better than before."
+                },
+                {
+                  "id": "d",
+                  "text": "Learners should like the updated screen."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A tester can observe whether only the selected course assignments appear.",
+              "feedback_incorrect": "A strong acceptance criterion is specific and testable without guessing.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.4",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L3 O1",
+                "L3 O2"
+              ]
+            }
+          ]
         },
         "4": null,
         "application": {
@@ -1472,15 +2011,6 @@
             "Write three acceptance criteria that another person can test.",
             "Check that the story focuses on value and does not require one early solution."
           ],
-          "response_choices": {
-            "title": "Choose how to show your thinking",
-            "intro": "Use one option. Your response must answer the prompts in your selected scenario.",
-            "options": [
-              "Type in the response boxes.",
-              "Use an accessible document with the same prompts.",
-              "Record a spoken response or create a simple story and criteria map if your instructor approves."
-            ]
-          },
           "decision_table": {
             "title": "Ready work checklist",
             "intro": "Use this checklist before you submit your story and criteria.",
@@ -1638,7 +2168,7 @@
           "This precision matters because unclear requirements can create rework, hidden assumptions, and product increments that appear complete but do not satisfy the user need.",
           "When you justify a user story, include stakeholder context, measurable behavior, verification conditions, and accessibility constraints so the Product Backlog communicates development intent without prescribing every technical implementation detail."
         ],
-        "challenge": "A student says, “I miss assignments because the Student Hub list is hard to scan on my phone.” The team needs a clear story and testable criteria before it builds.",
+        "challenge": "A student says, \u201cI miss assignments because the Student Hub list is hard to scan on my phone.\u201d The team needs a clear story and testable criteria before it builds.",
         "role_heading": "Your role in Lesson 3",
         "bullets": [
           "Ask what the user needs and why it matters.",
@@ -1779,7 +2309,89 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-4-2-01",
+              "type": "multiple_choice",
+              "prompt": "New tests show that keyboard users cannot open the Student Hub date filter. What is the best backlog response?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Keep the order because changing it would break the plan."
+                },
+                {
+                  "id": "b",
+                  "text": "Move the access fix higher and record the new evidence."
+                },
+                {
+                  "id": "c",
+                  "text": "Place the smallest item first, even if it has little value."
+                },
+                {
+                  "id": "d",
+                  "text": "Remove every item that is not an access fix."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. New evidence about an access barrier can justify changing the backlog order.",
+              "feedback_incorrect": "A Product Backlog can change when evidence shows a more valuable or urgent need.",
+              "source_ids": [
+                "R003",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.4",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L4 O1",
+                "L4 O2"
+              ]
+            },
+            {
+              "id": "CFU-4-2-02",
+              "type": "multiple_choice",
+              "prompt": "Which backlog item should move higher when keyboard users cannot open the date filter?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Fix the date filter keyboard barrier."
+                },
+                {
+                  "id": "b",
+                  "text": "Change the Student Hub icon color."
+                },
+                {
+                  "id": "c",
+                  "text": "Add a new welcome message."
+                },
+                {
+                  "id": "d",
+                  "text": "Write a longer team update."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A barrier that blocks use should move high in the backlog.",
+              "feedback_incorrect": "Think about user value and risk. A feature people cannot use needs attention.",
+              "source_ids": [
+                "R003",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.4",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L4 O1",
+                "L4 O2"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -1845,7 +2457,85 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 11
+          "estimated_minutes": 11,
+          "checks": [
+            {
+              "id": "CFU-4-3-01",
+              "type": "multiple_choice",
+              "prompt": "What is the main purpose of a simple Agile board?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Make work and its current order visible."
+                },
+                {
+                  "id": "b",
+                  "text": "Replace the Product Owner's decisions."
+                },
+                {
+                  "id": "c",
+                  "text": "Prove that every item will be completed."
+                },
+                {
+                  "id": "d",
+                  "text": "Assign all tasks to individual Developers."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A board helps the team see and discuss work.",
+              "feedback_incorrect": "A board displays information. It does not make product decisions or guarantee completion.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L4 O1",
+                "L4 O2"
+              ]
+            },
+            {
+              "id": "CFU-4-3-02",
+              "type": "multiple_choice",
+              "prompt": "What should a simple Agile board make visible?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "What is waiting, in progress, done, and blocked."
+                },
+                {
+                  "id": "b",
+                  "text": "Only the names of team members."
+                },
+                {
+                  "id": "c",
+                  "text": "Only the final product grade."
+                },
+                {
+                  "id": "d",
+                  "text": "Private notes that users cannot see."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A board helps the team see work status and blockers.",
+              "feedback_incorrect": "Review the purpose of visible work. The board should show work status clearly.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L4 O1",
+                "L4 O2"
+              ]
+            }
+          ]
         },
         "4": null,
         "application": {
@@ -1863,7 +2553,7 @@
             {
               "program": "Software Development",
               "id": "SCN-4-001",
-              "situation": "The Student Hub backlog includes a blocked keyboard date filter, a mobile calendar layout problem, announcement search, a dark theme, and an analytics page with no user evidence yet.",
+              "situation": "The Student Hub backlog includes a blocked keyboard date filter, 5 points; a mobile calendar layout problem, 5 points; announcement search, 8 points; a dark theme, 3 points; and an analytics page with no user evidence yet, 5 points.",
               "prompts": [
                 "Order the five backlog items from highest to lowest priority.",
                 "Place the top two items in Ready and the others in Later.",
@@ -1880,7 +2570,7 @@
             {
               "program": "Cybersecurity",
               "id": "SCN-4-002",
-              "situation": "The Student Hub backlog includes automatic sign out on shared devices, clearer password reset messages, a profile picture option, announcement search, and an admin report with no security evidence yet.",
+              "situation": "The Student Hub backlog includes automatic sign out on shared devices, 5 points; clearer password reset messages, 3 points; a profile picture option, 3 points; announcement search, 5 points; and an admin report with no security evidence yet, 10 points.",
               "prompts": [
                 "Order the five backlog items from highest to lowest priority.",
                 "Place the top two items in Ready and the others in Later.",
@@ -1897,7 +2587,7 @@
             {
               "program": "Data Science",
               "id": "SCN-4-003",
-              "situation": "The Student Hub backlog includes fixing stale dashboard data, adding a last updated label, adding chart colors, creating a teacher export, and building a prediction feature with no tested need yet.",
+              "situation": "The Student Hub backlog includes fixing stale dashboard data, 5 points; adding a last updated label, 3 points; adding chart colors, 3 points; creating a teacher export, 5 points; and building a prediction feature with no tested need yet, 10 points.",
               "prompts": [
                 "Order the five backlog items from highest to lowest priority.",
                 "Place the top two items in Ready and the others in Later.",
@@ -1914,7 +2604,7 @@
             {
               "program": "Artificial Intelligence",
               "id": "SCN-4-004",
-              "situation": "The Student Hub backlog includes checking AI study helper summaries for missing assignment details, adding a confidence notice, changing the helper icon, adding course filters, and testing a new chatbot with no user evidence yet.",
+              "situation": "The Student Hub backlog includes checking AI study helper summaries for missing assignment details, 5 points; adding a confidence notice, 3 points; changing the helper icon, 3 points; adding course filters, 5 points; and testing a new chatbot with no user evidence yet, 10 points.",
               "prompts": [
                 "Order the five backlog items from highest to lowest priority.",
                 "Place the top two items in Ready and the others in Later.",
@@ -1931,7 +2621,7 @@
             {
               "program": "Game Development",
               "id": "SCN-4-005",
-              "situation": "The Student Hub backlog includes remappable controls for a practice game, clearer score feedback, a new badge design, faster loading, and a leaderboard with no privacy review yet.",
+              "situation": "The Student Hub backlog includes remappable controls for a practice game, 5 points; clearer score feedback, 3 points; a new badge design, 3 points; faster loading, 5 points; and a leaderboard with no privacy review yet, 10 points.",
               "prompts": [
                 "Order the five backlog items from highest to lowest priority.",
                 "Place the top two items in Ready and the others in Later.",
@@ -1948,7 +2638,7 @@
             {
               "program": "Physical Computing",
               "id": "SCN-4-006",
-              "situation": "The Student Hub backlog includes clearer out of range sensor alerts, a sensor status message, a new dashboard color, device setup instructions, and a remote control feature with no safety review yet.",
+              "situation": "The Student Hub backlog includes clearer out of range sensor alerts, 5 points; a sensor status message, 3 points; a new dashboard color, 3 points; device setup instructions, 5 points; and a remote control feature with no safety review yet, 10 points.",
               "prompts": [
                 "Order the five backlog items from highest to lowest priority.",
                 "Place the top two items in Ready and the others in Later.",
@@ -2073,7 +2763,7 @@
         },
         {
           "term": "Sprint Backlog",
-          "definition": "The selected Product Backlog items plus the Developers’ plan for completing them."
+          "definition": "The selected Product Backlog items plus the Developers\u2019 plan for completing them."
         },
         {
           "term": "capacity",
@@ -2151,7 +2841,89 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 9
+          "estimated_minutes": 9,
+          "checks": [
+            {
+              "id": "CFU-5-2-01",
+              "type": "multiple_choice",
+              "prompt": "Which Sprint Goal is most useful?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Complete many unrelated tasks."
+                },
+                {
+                  "id": "b",
+                  "text": "Improve mobile access so students can view and filter assignments."
+                },
+                {
+                  "id": "c",
+                  "text": "Finish everything in the Product Backlog."
+                },
+                {
+                  "id": "d",
+                  "text": "Keep every team member busy."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. The goal states one valuable outcome.",
+              "feedback_incorrect": "Choose a shared product outcome, not a task count.",
+              "source_ids": [
+                "R005",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.5",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L5 O1",
+                "L5 O2"
+              ]
+            },
+            {
+              "id": "CFU-5-2-02",
+              "type": "multiple_choice",
+              "prompt": "What should a Sprint Goal describe?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The valuable outcome the team is trying to create in the Sprint."
+                },
+                {
+                  "id": "b",
+                  "text": "Every small task each person will do."
+                },
+                {
+                  "id": "c",
+                  "text": "A list of ideas with no priority."
+                },
+                {
+                  "id": "d",
+                  "text": "A promise that no plan will change."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A Sprint Goal describes the useful outcome, not every task.",
+              "feedback_incorrect": "A Sprint Goal should focus the team on a valuable outcome.",
+              "source_ids": [
+                "R005",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.5",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L5 O1",
+                "L5 O2"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -2210,7 +2982,85 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 8
+          "estimated_minutes": 8,
+          "checks": [
+            {
+              "id": "CFU-5-3-01",
+              "type": "multiple_choice",
+              "prompt": "Testing reveals that a selected item needs another task before it is ready. What should Developers do?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Hide the task so the plan looks complete."
+                },
+                {
+                  "id": "b",
+                  "text": "Add the task and update the Sprint Backlog."
+                },
+                {
+                  "id": "c",
+                  "text": "Ignore the task because the Sprint plan should never change."
+                },
+                {
+                  "id": "d",
+                  "text": "Mark the item complete and test it later."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. Developers update their plan as they learn during the Sprint.",
+              "feedback_incorrect": "The Sprint Backlog is a visible plan. Developers update it when they learn more about the work.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.5",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L5 O2"
+              ]
+            },
+            {
+              "id": "CFU-5-3-02",
+              "type": "multiple_choice",
+              "prompt": "Why should a Sprint Backlog include tasks for testing?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Testing is part of the work needed to deliver a quality increment."
+                },
+                {
+                  "id": "b",
+                  "text": "Testing is only needed after the module ends."
+                },
+                {
+                  "id": "c",
+                  "text": "Testing replaces the Sprint Goal."
+                },
+                {
+                  "id": "d",
+                  "text": "Testing should stay hidden from the team plan."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Quality work belongs in the Sprint Backlog so the plan is realistic.",
+              "feedback_incorrect": "Not quite. Testing is part of completing useful, quality work.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.5",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L5 O2"
+              ]
+            }
+          ]
         },
         "4": {
           "type": "learn",
@@ -2302,7 +3152,89 @@
                 "text": "The plan fits capacity, leaves room for quality checks, and avoids pulling in unrelated work."
               }
             ]
-          }
+          },
+          "checks": [
+            {
+              "id": "CFU-5-4-01",
+              "type": "multiple_choice",
+              "prompt": "Which Sprint Planning choice is most realistic?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Select all 26 points of possible work so the team stays busy."
+                },
+                {
+                  "id": "b",
+                  "text": "Select 10 points of goal related work and reserve room for testing, access checks, and unexpected work."
+                },
+                {
+                  "id": "c",
+                  "text": "Choose the easiest item first even if it does not support the Sprint Goal."
+                },
+                {
+                  "id": "d",
+                  "text": "Wait until the Sprint ends before thinking about testing."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. A realistic Sprint plan connects the goal, selected work, capacity room, and quality checks.",
+              "feedback_incorrect": "Look for the plan that fits capacity, supports the Sprint Goal, and reserves room for testing and access.",
+              "source_ids": [
+                "R007",
+                "R010",
+                "S001",
+                "S002"
+              ],
+              "standard_ids": [
+                "AG.5"
+              ],
+              "objective_ids": [
+                "L5 O3"
+              ]
+            },
+            {
+              "id": "CFU-5-4-02",
+              "type": "multiple_choice",
+              "prompt": "What should the team do if selected work is larger than team capacity?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Reduce or split the work so the Sprint plan is realistic."
+                },
+                {
+                  "id": "b",
+                  "text": "Keep all the work and hope it fits."
+                },
+                {
+                  "id": "c",
+                  "text": "Remove testing to make more room."
+                },
+                {
+                  "id": "d",
+                  "text": "Ignore capacity until the Sprint Review."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A realistic Sprint plan fits the team's capacity and protects quality.",
+              "feedback_incorrect": "Review capacity. The team should adjust the plan instead of hiding risk.",
+              "source_ids": [
+                "R007",
+                "R010",
+                "S001",
+                "S002"
+              ],
+              "standard_ids": [
+                "AG.5"
+              ],
+              "objective_ids": [
+                "L5 O3"
+              ]
+            }
+          ]
         },
         "application": {
           "type": "application",
@@ -2320,7 +3252,7 @@
             {
               "program": "Software Development",
               "id": "SCN-5-001",
-              "situation": "The Student Hub team has 13 capacity points. The ordered list includes keyboard date filter fix, mobile calendar layout, announcement search, dark theme, and analytics page. The team must reserve at least 2 points for testing and unexpected work.",
+              "situation": "The Student Hub team has 13 capacity points. The ordered list includes a keyboard date filter fix, 5 points; mobile calendar layout, 5 points; announcement search, 8 points; dark theme, 3 points; and analytics page, 5 points. The team must reserve at least 2 points for testing and unexpected work.",
               "prompts": [
                 "Create one Sprint Goal.",
                 "Select work that supports the goal and fits capacity.",
@@ -2338,7 +3270,7 @@
             {
               "program": "Cybersecurity",
               "id": "SCN-5-002",
-              "situation": "The Student Hub team has 13 capacity points. The ordered security related backlog includes automatic sign out on shared devices, clearer password reset messages, account activity notice, profile picture option, and admin report. The team must reserve at least 2 points for testing and unexpected work.",
+              "situation": "The Student Hub team has 13 capacity points. The ordered security related backlog includes automatic sign out on shared devices, 5 points; clearer password reset messages, 3 points; account activity notice, 5 points; profile picture option, 3 points; and admin report, 10 points. The team must reserve at least 2 points for testing and unexpected work.",
               "prompts": [
                 "Create one Sprint Goal focused on account safety or clear access.",
                 "Select work that supports the goal and fits capacity.",
@@ -2356,7 +3288,7 @@
             {
               "program": "Data Science",
               "id": "SCN-5-003",
-              "situation": "The Student Hub team has 13 capacity points. The ordered data backlog includes fixing stale dashboard data, adding a last updated label, building a teacher export, improving chart labels, and testing a prediction feature. The team must reserve at least 2 points for testing and unexpected work.",
+              "situation": "The Student Hub team has 13 capacity points. The ordered data backlog includes fixing stale dashboard data, 5 points; adding a last updated label, 3 points; building a teacher export, 5 points; improving chart labels, 3 points; and testing a prediction feature, 10 points. The team must reserve at least 2 points for testing and unexpected work.",
               "prompts": [
                 "Create one Sprint Goal focused on trustworthy Student Hub data.",
                 "Select work that supports the goal and fits capacity.",
@@ -2374,7 +3306,7 @@
             {
               "program": "Artificial Intelligence",
               "id": "SCN-5-004",
-              "situation": "The Student Hub team has 13 capacity points. The ordered AI backlog includes checking study helper summaries for missing assignment details, adding a confidence notice, adding course filters, changing the helper icon, and testing a new chatbot. The team must reserve at least 2 points for testing and unexpected work.",
+              "situation": "The Student Hub team has 13 capacity points. The ordered AI backlog includes checking study helper summaries for missing assignment details, 5 points; adding a confidence notice, 3 points; adding course filters, 5 points; changing the helper icon, 3 points; and testing a new chatbot, 10 points. The team must reserve at least 2 points for testing and unexpected work.",
               "prompts": [
                 "Create one Sprint Goal focused on safe and useful AI support.",
                 "Select work that supports the goal and fits capacity.",
@@ -2392,7 +3324,7 @@
             {
               "program": "Game Development",
               "id": "SCN-5-005",
-              "situation": "The Student Hub team has 13 capacity points. The ordered game related backlog includes remappable controls, clearer score feedback, faster loading, badge design, and a leaderboard with a privacy question. The team must reserve at least 2 points for testing and unexpected work.",
+              "situation": "The Student Hub team has 13 capacity points. The ordered game related backlog includes remappable controls, 5 points; clearer score feedback, 3 points; faster loading, 5 points; badge design, 3 points; and a leaderboard with a privacy question, 10 points. The team must reserve at least 2 points for testing and unexpected work.",
               "prompts": [
                 "Create one Sprint Goal focused on playable, accessible Student Hub practice.",
                 "Select work that supports the goal and fits capacity.",
@@ -2410,7 +3342,7 @@
             {
               "program": "Physical Computing",
               "id": "SCN-5-006",
-              "situation": "The Student Hub team has 13 capacity points. The ordered device related backlog includes clearer out of range sensor alerts, a sensor status message, device setup instructions, dashboard color changes, and a remote control feature needing safety review. The team must reserve at least 2 points for testing and unexpected work.",
+              "situation": "The Student Hub team has 13 capacity points. The ordered device related backlog includes clearer out of range sensor alerts, 5 points; a sensor status message, 3 points; device setup instructions, 5 points; dashboard color changes, 3 points; and a remote control feature needing safety review, 10 points. The team must reserve at least 2 points for testing and unexpected work.",
               "prompts": [
                 "Create one Sprint Goal focused on safe, clear device information.",
                 "Select work that supports the goal and fits capacity.",
@@ -2641,7 +3573,89 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-6-2-01",
+              "type": "multiple_choice",
+              "prompt": "Which update best supports the Daily Scrum's purpose?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "I worked on the calendar."
+                },
+                {
+                  "id": "b",
+                  "text": "The date filter test failed, which blocks the Sprint Goal. I need access to the test account today."
+                },
+                {
+                  "id": "c",
+                  "text": "My manager already knows what I did."
+                },
+                {
+                  "id": "d",
+                  "text": "I will explain everything at the Sprint Review."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. The update connects evidence and a blocker to the Sprint Goal.",
+              "feedback_incorrect": "Choose the update that helps Developers adapt their plan.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L6 O1",
+                "L6 O2"
+              ]
+            },
+            {
+              "id": "CFU-6-2-02",
+              "type": "multiple_choice",
+              "prompt": "What is the main purpose of the Daily Scrum?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Inspect progress toward the Sprint Goal and adapt the plan."
+                },
+                {
+                  "id": "b",
+                  "text": "Report every detail to the instructor."
+                },
+                {
+                  "id": "c",
+                  "text": "Replace the Sprint Review."
+                },
+                {
+                  "id": "d",
+                  "text": "Choose a new Product Goal each day."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Developers use the Daily Scrum to inspect progress and adapt their plan.",
+              "feedback_incorrect": "Not quite. The Daily Scrum helps Developers inspect progress and adapt.",
+              "source_ids": [
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L6 O1",
+                "L6 O2"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -2704,7 +3718,91 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 6
+          "estimated_minutes": 6,
+          "checks": [
+            {
+              "id": "CFU-6-3-01",
+              "type": "multiple_choice",
+              "prompt": "A team member says, \"I finished yesterday's task, but the test account is missing, so I cannot check keyboard access today.\" Why is this useful?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It gives a full report to the manager."
+                },
+                {
+                  "id": "b",
+                  "text": "It names progress, the blocker, and the work at risk."
+                },
+                {
+                  "id": "c",
+                  "text": "It proves the Sprint Goal is already complete."
+                },
+                {
+                  "id": "d",
+                  "text": "It moves the problem to the Sprint Review."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. The update gives the team evidence it can use to adapt the plan.",
+              "feedback_incorrect": "Look for the update that makes progress, the blocker, and the Sprint Goal risk visible.",
+              "source_ids": [
+                "R001",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L6 O1",
+                "L6 O2"
+              ]
+            },
+            {
+              "id": "CFU-6-3-02",
+              "type": "multiple_choice",
+              "prompt": "What should a helpful daily stand up focus on?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Progress toward the goal, next work, and anything blocking progress."
+                },
+                {
+                  "id": "b",
+                  "text": "A long personal update from every team member."
+                },
+                {
+                  "id": "c",
+                  "text": "Only work that is already done."
+                },
+                {
+                  "id": "d",
+                  "text": "New features that are not related to the Sprint Goal."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A useful stand up keeps the team focused on progress, next work, and blockers.",
+              "feedback_incorrect": "Review the purpose of a short team check in. It should help the team adapt.",
+              "source_ids": [
+                "R001",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.6",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L6 O1",
+                "L6 O2"
+              ]
+            }
+          ]
         },
         "4": {
           "type": "learn",
@@ -2785,7 +3883,87 @@
                 "text": "The update names the blocker, connects it to the Sprint Goal, and suggests a next action."
               }
             ]
-          }
+          },
+          "checks": [
+            {
+              "id": "CFU-6-4-01",
+              "type": "multiple_choice",
+              "prompt": "A blocker needs support from someone outside the team's authority. What should happen next?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ignore it until the Sprint ends."
+                },
+                {
+                  "id": "b",
+                  "text": "Make the impediment visible and involve the Scrum Master or person who can help."
+                },
+                {
+                  "id": "c",
+                  "text": "Use the whole Daily Scrum for a long debate."
+                },
+                {
+                  "id": "d",
+                  "text": "Wait for a manager to assign every Developer a new task."
+                }
+              ],
+              "correct": [
+                "b"
+              ],
+              "feedback_correct": "Correct. The team makes the impediment visible and gets help without giving up self management.",
+              "feedback_incorrect": "Ask whether the team can solve the blocker itself or needs help outside the team.",
+              "source_ids": [
+                "R023",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.6",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L6 O3"
+              ]
+            },
+            {
+              "id": "CFU-6-4-02",
+              "type": "multiple_choice",
+              "prompt": "When is a blocker important to raise?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "When it prevents progress toward the Sprint Goal."
+                },
+                {
+                  "id": "b",
+                  "text": "Only after the Sprint is finished."
+                },
+                {
+                  "id": "c",
+                  "text": "Only when the blocker is easy to solve alone."
+                },
+                {
+                  "id": "d",
+                  "text": "When the team wants to avoid changing the plan."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Blockers matter because they can stop progress toward the Sprint Goal.",
+              "feedback_incorrect": "A blocker is important when it slows or stops progress toward the goal.",
+              "source_ids": [
+                "R023",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.6",
+                "AG.9"
+              ],
+              "objective_ids": [
+                "L6 O3"
+              ]
+            }
+          ]
         },
         "application": {
           "type": "application",
@@ -3027,7 +4205,7 @@
         "2": {
           "type": "connect",
           "title": "Connect and Learn: Sprint Review Feedback",
-          "focus": "CONNECT, Work on your own. The Student Hub team demonstrates a feature that works, but users find a serious problem. What should the team do with that feedback? Keep one next action in mind.",
+          "focus": "Work on your own. The Student Hub team demonstrates a feature that works, but users find a serious problem. What should the team do with that feedback? Keep one next action in mind.",
           "body": [
             "LEARN, The Sprint Review is a Scrum event for inspecting the product result. The Scrum Team and stakeholders look at what was built, what changed, and what should happen next.",
             "The Sprint Review is not only a presentation. It is a working session. Stakeholder feedback may lead the Product Owner to reorder the Product Backlog.",
@@ -3088,7 +4266,87 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-7-2-01",
+              "type": "multiple_choice",
+              "prompt": "Which action belongs in a Sprint Review?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Use stakeholder feedback to reconsider Product Backlog order."
+                },
+                {
+                  "id": "b",
+                  "text": "Assign blame for a missed task."
+                },
+                {
+                  "id": "c",
+                  "text": "Choose one private team habit to improve."
+                },
+                {
+                  "id": "d",
+                  "text": "Replace the Definition of Done without discussion."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. The Sprint Review uses product evidence to inform future work.",
+              "feedback_incorrect": "Focus on the product, stakeholders, and possible backlog changes.",
+              "source_ids": [
+                "R014",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.7"
+              ],
+              "objective_ids": [
+                "L7 O1",
+                "L7 O3"
+              ]
+            },
+            {
+              "id": "CFU-7-2-02",
+              "type": "multiple_choice",
+              "prompt": "What should happen during a Sprint Review?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Stakeholders inspect the increment and give product feedback."
+                },
+                {
+                  "id": "b",
+                  "text": "The team hides unfinished work from users."
+                },
+                {
+                  "id": "c",
+                  "text": "Developers choose a process improvement without product feedback."
+                },
+                {
+                  "id": "d",
+                  "text": "The team starts a new Sprint without looking at evidence."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A Sprint Review uses the increment and stakeholder feedback to guide product decisions.",
+              "feedback_incorrect": "Review the Sprint Review purpose. It focuses on the product and feedback.",
+              "source_ids": [
+                "R014",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.7"
+              ],
+              "objective_ids": [
+                "L7 O1",
+                "L7 O3"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -3150,7 +4408,87 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 10
+          "estimated_minutes": 10,
+          "checks": [
+            {
+              "id": "CFU-7-3-01",
+              "type": "multiple_choice",
+              "prompt": "Which retrospective improvement is most actionable?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Communicate better."
+                },
+                {
+                  "id": "b",
+                  "text": "Try harder next time."
+                },
+                {
+                  "id": "c",
+                  "text": "Review acceptance criteria together before starting each backlog item."
+                },
+                {
+                  "id": "d",
+                  "text": "Avoid discussing problems."
+                }
+              ],
+              "correct": [
+                "c"
+              ],
+              "feedback_correct": "Correct. The action is specific and can be tested next Sprint.",
+              "feedback_incorrect": "Choose a clear process change, not a vague hope.",
+              "source_ids": [
+                "R015",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.8"
+              ],
+              "objective_ids": [
+                "L7 O2",
+                "L7 O3"
+              ]
+            },
+            {
+              "id": "CFU-7-3-02",
+              "type": "multiple_choice",
+              "prompt": "What should a team choose during a Sprint Retrospective?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "One action that can improve how the team works next Sprint."
+                },
+                {
+                  "id": "b",
+                  "text": "A new product feature with no process discussion."
+                },
+                {
+                  "id": "c",
+                  "text": "A list of complaints with no next action."
+                },
+                {
+                  "id": "d",
+                  "text": "A final grade for each team member."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. A retrospective should lead to a useful process improvement.",
+              "feedback_incorrect": "Not quite. A retrospective focuses on improving how the team works.",
+              "source_ids": [
+                "R015",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.8"
+              ],
+              "objective_ids": [
+                "L7 O2",
+                "L7 O3"
+              ]
+            }
+          ]
         },
         "4": null,
         "application": {
@@ -3158,9 +4496,14 @@
           "title": "Use Feedback to Improve Student Hub",
           "intro": "Separate product feedback from process feedback. Then choose one product action and one team process action.",
           "completion_mode": "portable_review_and_retrospective_record,_lms_response,_or_accessible_form",
-          "directions": [
-            "Choose the scenario that best matches your career program interest. Sort each finding into product feedback or process feedback. Recommend one Product Backlog change from the product evidence. Write one specific process improvement to test during the next Sprint. Explain how each action uses evidence. End with this handoff: Our team will improve the product by ___ and improve our process by ___."
-          ],
+            "directions": [
+              "Choose the scenario that best matches your career program interest.",
+              "Sort each finding into product feedback or process feedback.",
+              "Recommend one Product Backlog change based on the product evidence.",
+              "Write one specific process improvement to test during the next Sprint.",
+              "Explain how each action uses evidence.",
+              "Finish the handoff statement: Our team will improve the product by ___ and improve our process by ___."
+            ],
           "program_scenarios": [
             {
               "program": "Software Development",
@@ -3408,7 +4751,7 @@
         "2": {
           "type": "connect",
           "title": "Connect and Learn: One Scrum Informed Agile Cycle",
-          "focus": "CONNECT, Work on your own. Think through this order: gather user evidence, plan a Sprint, build and test an Increment, review feedback, and improve the process. Keep one connection in mind as you continue.",
+          "focus": "Work on your own. Think through this order: gather user evidence, plan a Sprint, build and test an Increment, review feedback, and improve the process. Keep one connection in mind as you continue.",
           "body": [
             "LEARN, This Scrum informed cycle shows one way Agile teams connect important decisions across a project. Teams adapt their practices as needs, constraints, and evidence change.",
             "A user need helps the team shape a Product Goal. The Product Owner orders the Product Backlog using value, risk, evidence, and effort.",
@@ -3483,7 +4826,103 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 8
+          "estimated_minutes": 8,
+          "checks": [
+            {
+              "id": "CFU-8-2-01",
+              "type": "ordering",
+              "prompt": "Place these actions in a useful Agile sequence.",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Gather user evidence"
+                },
+                {
+                  "id": "b",
+                  "text": "Plan a Sprint"
+                },
+                {
+                  "id": "c",
+                  "text": "Build and test an Increment"
+                },
+                {
+                  "id": "d",
+                  "text": "Inspect feedback"
+                },
+                {
+                  "id": "e",
+                  "text": "Improve the team process"
+                }
+              ],
+              "correct": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e"
+              ],
+              "feedback_correct": "Correct. The cycle moves from evidence to planning, usable work, product feedback, and process improvement.",
+              "feedback_incorrect": "Find the user need first. Then look for planning, working software, product feedback, and team improvement.",
+              "source_ids": [
+                "R006",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.2",
+                "AG.3",
+                "AG.7",
+                "AG.8",
+                "AG.9",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L8 O1"
+              ]
+            },
+            {
+              "id": "CFU-8-2-02",
+              "type": "multiple_choice",
+              "prompt": "Why should feedback stay connected to the Product Backlog?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It helps the team use evidence to choose the next improvement."
+                },
+                {
+                  "id": "b",
+                  "text": "It lets the team ignore the Sprint Goal."
+                },
+                {
+                  "id": "c",
+                  "text": "It proves every idea should be built right away."
+                },
+                {
+                  "id": "d",
+                  "text": "It removes the need for review."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Feedback gives evidence the team can use to order future work.",
+              "feedback_incorrect": "Feedback should guide backlog decisions, not sit apart from the work.",
+              "source_ids": [
+                "R006",
+                "R007"
+              ],
+              "standard_ids": [
+                "AG.2",
+                "AG.3",
+                "AG.7",
+                "AG.8",
+                "AG.9",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L8 O1"
+              ]
+            }
+          ]
         },
         "3": {
           "type": "learn",
@@ -3549,7 +4988,89 @@
             ]
           },
           "check_override_reason": "",
-          "estimated_minutes": 7
+          "estimated_minutes": 7,
+          "checks": [
+            {
+              "id": "CFU-8-3-01",
+              "type": "multiple_choice",
+              "prompt": "When should work count as part of a usable Increment?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "When it is selected for the Sprint Backlog."
+                },
+                {
+                  "id": "b",
+                  "text": "When a stakeholder first asks for it."
+                },
+                {
+                  "id": "c",
+                  "text": "When it meets the Definition of Done and can provide value."
+                },
+                {
+                  "id": "d",
+                  "text": "When the team runs out of Sprint time."
+                }
+              ],
+              "correct": [
+                "c"
+              ],
+              "feedback_correct": "Correct. An Increment must meet the Definition of Done before it counts as complete.",
+              "feedback_incorrect": "Look for the choice that connects completed work to the team's shared quality standard.",
+              "source_ids": [
+                "R007",
+                "R012",
+                "R016"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L8 O3"
+              ]
+            },
+            {
+              "id": "CFU-8-3-02",
+              "type": "multiple_choice",
+              "prompt": "When can the team call a product increment done?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "When it meets the Definition of Done and the acceptance criteria."
+                },
+                {
+                  "id": "b",
+                  "text": "When the team runs out of time."
+                },
+                {
+                  "id": "c",
+                  "text": "When the feature looks complete but has not been tested."
+                },
+                {
+                  "id": "d",
+                  "text": "When one stakeholder asks for a demo."
+                }
+              ],
+              "correct": [
+                "a"
+              ],
+              "feedback_correct": "Correct. Done means the increment meets the shared quality standard and the acceptance criteria.",
+              "feedback_incorrect": "Review the Definition of Done. Work is not done until required quality checks are met.",
+              "source_ids": [
+                "R007",
+                "R012",
+                "R016"
+              ],
+              "standard_ids": [
+                "AG.3",
+                "AG.10"
+              ],
+              "objective_ids": [
+                "L8 O3"
+              ]
+            }
+          ]
         },
         "4": null,
         "application": {
@@ -3557,9 +5078,10 @@
           "title": "Complete the Final Agile Decision Path",
           "intro": "Use one career field scenario to show how the Student Hub team should move from evidence to action.",
           "completion_mode": "portable_agile_project_toolkit,_lms_response,_or_accessible_form",
-          "directions": [
-            "Choose one career field and read the situation. Look for five kinds of evidence: user need, quality risk, capacity, blocker, and stakeholder feedback.",
-            "Use the response template in order. The first four parts move from user need to Sprint plan. The last three parts address the blocker, review feedback, and retrospective improvement.",
+            "directions": [
+              "Choose one career field and read the situation. Look for five kinds of evidence: user need, quality risk, capacity, blocker, and stakeholder feedback.",
+              "Assume the team can complete one main product improvement and the testing needed to meet the Definition of Done.",
+              "Use the response template in order. The first four parts move from user need to Sprint plan. The last three parts address the blocker, review feedback, and retrospective improvement.",
             "Defend two decisions with evidence. One defense should explain a product or planning choice. The other should explain a blocker, Definition of Done, or process improvement choice.",
             "Finish with the final team decision sentence. This should summarize the strongest Agile decision your team would make next."
           ],
@@ -4192,7 +5714,7 @@
     {
       "id": "A-3-04",
       "type": "multiple_choice",
-      "prompt": "A Student Hub story says, “As a teacher, I want to post an announcement so that students see urgent news.” What should the team add next?",
+      "prompt": "A Student Hub story says, \u201cAs a teacher, I want to post an announcement so that students see urgent news.\u201d What should the team add next?",
       "feedback_correct": "Correct. Acceptance criteria define the results needed for the story to work.",
       "feedback_incorrect": "The story explains the need and value. The team still needs clear conditions for success.",
       "source_ids": [
